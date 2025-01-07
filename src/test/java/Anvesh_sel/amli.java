@@ -21,7 +21,8 @@ public class amli {
 		Thread.sleep(3000);
 		JavascriptExecutor js = (JavascriptExecutor)driver;
 		js.executeScript("window.scrollBy(0,350)", "");
-		
+		JavascriptExecutor js2 = (JavascriptExecutor)driver;
+		js2.executeScript("window.scrollBy(500,350)", "");
 	
 	WebElement le = driver.findElement(By.xpath("//label[contains(text(),'2 Bedrooms')]"));
 	Thread.sleep(2000);

@@ -10,7 +10,7 @@ public class itestlistnere implements ITestListener{
 	@Override
 	public void onTestStart(ITestResult result) {
 		// TODO Auto-generated method stub
-		
+		System.out.println("the test is started");
 	}
 
 	@Override
