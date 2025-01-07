@@ -32,5 +32,7 @@ r.keyPress(KeyEvent.VK_DOWN);
 	
 
 driver.switchTo().newWindow(WindowType.WINDOW);
+
+System.out.println("this is the drag and drop examplke");
 }
 }
