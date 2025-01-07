@@ -1,0 +1,18 @@
+-------------------------------------------------------------------------------
+Test set: TestSuite
+-------------------------------------------------------------------------------
+Tests run: 3, Failures: 3, Errors: 0, Skipped: 0, Time elapsed: 0.387 s <<< FAILURE! - in TestSuite
+launchbrowser(PRACTICE.CrossbrowserTest)  Time elapsed: 0.237 s  <<< FAILURE!
+org.testng.TestNGException: 
+
+Parameter 'browser' is required by @Test on method launchbrowser but has not been marked @Optional or defined
+
+
+verifyTitle(PRACTICE.CrossbrowserTest)  Time elapsed: 0.003 s  <<< FAILURE!
+java.lang.NullPointerException: Cannot invoke "org.openqa.selenium.WebDriver.getTitle()" because "this.driver" is null
+	at PRACTICE.CrossbrowserTest.verifyTitle(CrossbrowserTest.java:35)
+
+closeBrowser(PRACTICE.CrossbrowserTest)  Time elapsed: 0.006 s  <<< FAILURE!
+java.lang.NullPointerException: Cannot invoke "org.openqa.selenium.WebDriver.close()" because "this.driver" is null
+	at PRACTICE.CrossbrowserTest.closeBrowser(CrossbrowserTest.java:41)
+

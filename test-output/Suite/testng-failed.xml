@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite thread-count="4" parallel="tests" name="Failed suite [Suite]" guice-stage="DEVELOPMENT">
+  <test thread-count="4" parallel="tests" name="Testfirefox(failed)">
+    <parameter name="password" value="admin123"/>
+    <parameter name="browsername" value="chrome"/>
+    <parameter name="username" value="admin"/>
+    <classes>
+      <class name="testng.forgotpas">
+        <methods>
+          <include name="forgot" invocation-numbers="0"/>
+          <include name="closebrowser"/>
+          <include name="launchapp"/>
+          <include name="launchbrowser"/>
+        </methods>
+      </class> <!-- testng.forgotpas -->
+    </classes>
+  </test> <!-- Testfirefox(failed) -->
+</suite> <!-- Failed suite [Suite] -->

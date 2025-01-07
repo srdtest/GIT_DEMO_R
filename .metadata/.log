@@ -1,0 +1,1538 @@
+!SESSION 2023-10-18 15:50:33.122 -----------------------------------------------
+eclipse.buildId=4.29.0.20230907-1200
+java.version=21
+java.vendor=Eclipse Adoptium
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=en_US
+Framework arguments:  -product org.eclipse.epp.package.jee.product
+Command-line arguments:  -os win32 -ws win32 -arch x86_64 -product org.eclipse.epp.package.jee.product
+
+!ENTRY org.eclipse.emf.ecore 2 0 2023-10-18 15:50:34.885
+!MESSAGE Both 'org.eclipse.jst.j2ee.core' and 'org.eclipse.jst.j2ee.core' register a package for 'application.xmi'
+
+!ENTRY ch.qos.logback.classic 1 0 2023-10-18 15:50:35.126
+!MESSAGE Activated before the state location was initialized. Retry after the state location is initialized.
+
+!ENTRY ch.qos.logback.classic 1 0 2023-10-18 15:50:52.001
+!MESSAGE Logback config file: C:\Users\Nihir\eclipse-workspace\rahul_selenium\.metadata\.plugins\org.eclipse.m2e.logback\logback.2.2.0.20230625-0847.xml
+
+!ENTRY org.eclipse.jface 2 0 2023-10-18 15:50:53.966
+!MESSAGE Keybinding conflicts occurred.  They may interfere with normal accelerator operation.
+!SUBENTRY 1 org.eclipse.jface 2 0 2023-10-18 15:50:53.966
+!MESSAGE A conflict occurred for CTRL+SHIFT+T:
+Binding(CTRL+SHIFT+T,
+	ParameterizedCommand(Command(org.eclipse.jdt.ui.navigate.open.type,Open Type,
+		Open a type in a Java editor,
+		Category(org.eclipse.ui.category.navigate,Navigate,null,true),
+		WorkbenchHandlerServiceHandler("org.eclipse.jdt.ui.navigate.open.type"),
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,,system)
+Binding(CTRL+SHIFT+T,
+	ParameterizedCommand(Command(org.eclipse.lsp4e.symbolinworkspace,Go to Symbol in Workspace,
+		,
+		Category(org.eclipse.lsp4e.category,Language Servers,null,true),
+		WorkbenchHandlerServiceHandler("org.eclipse.lsp4e.symbolinworkspace"),
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,,system)
+
+!ENTRY org.eclipse.egit.ui 2 0 2023-10-18 15:50:59.157
+!MESSAGE Warning: The environment variable HOME is not set. The following directory will be used to store the Git
+user global configuration and to define the default location to store repositories: 'C:\Users\Nihir'. If this is
+not correct please set the HOME environment variable and restart Eclipse. Otherwise Git for Windows and
+EGit might behave differently since they see different configuration options.
+This warning can be switched off on the Team > Git > Confirmations and Warnings preference page.
+
+!ENTRY org.eclipse.m2e.core.ui 4 0 2023-10-18 15:52:01.244
+!MESSAGE Failed to create project.
+!STACK 0
+java.util.concurrent.ExecutionException: java.lang.IllegalStateException: Process exit value was 1. Console printout:
+===============================================================
+[INFO] Scanning for projects...
+Downloading from : https://repo.maven.apache.org/maven2/org/codehaus/mojo/maven-metadata.xml
+Downloading from : https://repo.maven.apache.org/maven2/org/apache/maven/plugins/maven-metadata.xml
+Progress (1): 5.6/21 kBProgress (1): 2.8/21 kBProgress (1): 1.4/21 kBProgress (1): 1.4/21 kBProgress (1): 1.4/21 kBProgress (1): 1.4/21 kBProgress (1): 1.4/21 kBProgress (1): 1.4/21 kBProgress (1): 3.7/21 kBProgress (2): 3.7/21 kB | 1.4/14 kBProgress (2): 3.7/21 kB | 1.4/14 kBProgress (2): 3.7/21 kB | 1.4/14 kBProgress (2): 3.7/21 kB | 1.4/14 kBProgress (2): 3.7/21 kB | 1.4/14 kBProgress (2): 3.7/21 kB | 1.4/14 kBProgress (2): 3.7/21 kB | 1.4/14 kBProgress (2): 3.7/21 kB | 1.4/14 kBProgress (2): 3.7/21 kB | 1.4/14 kBProgress (2): 3.7/21 kB | 1.4/14 kBProgress (2): 3.7/21 kB | 0.2/14 kB                                   Downloaded from : https://repo.maven.apache.org/maven2/org/codehaus/mojo/maven-metadata.xml (21 kB at 44 kB/s)
+Downloaded from : https://repo.maven.apache.org/maven2/org/apache/maven/plugins/maven-metadata.xml (14 kB at 29 kB/s)
+Downloading from : https://repo.maven.apache.org/maven2/org/apache/maven/plugins/maven-archetype-plugin/maven-metadata.xml
+Progress (1): 980 B                   Downloaded from : https://repo.maven.apache.org/maven2/org/apache/maven/plugins/maven-archetype-plugin/maven-metadata.xml (980 B at 16 kB/s)
+[INFO] 
+[INFO] [1m------------------< [0;36morg.apache.maven:standalone-pom[0;1m >-------------------[m
+[INFO] [1mBuilding Maven Stub Project (No POM) 1[m
+[INFO] [1m--------------------------------[ pom ]---------------------------------[m
+[INFO] 
+[INFO] [1m>>> [0;32marchetype:3.2.1:generate[m [1m(default-cli)[0;1m > [0;1mgenerate-sources[m @ [36mstandalone-pom[0;1m >>>[m
+[INFO] 
+[INFO] [1m<<< [0;32marchetype:3.2.1:generate[m [1m(default-cli)[0;1m < [0;1mgenerate-sources[m @ [36mstandalone-pom[0;1m <<<[m
+[INFO] 
+[INFO] 
+[INFO] [1m--- [0;32marchetype:3.2.1:generate[m [1m(default-cli)[m @ [36mstandalone-pom[0;1m ---[m
+[INFO] Generating project in Interactive mode
+[INFO] Archetype repository not defined. Using the one from [org.apache.maven.archetypes:maven-archetype-quickstart:1.4] found in catalog remote
+[INFO] Using property: groupId = EndtoEnd_sel
+[INFO] Using property: artifactId = EndToEnd
+[INFO] Using property: version = 0.0.1-SNAPSHOT
+[INFO] Using property: package = EndtoEnd_sel.EndToEnd
+Confirm properties configuration:
+groupId: EndtoEnd_sel
+artifactId: EndToEnd
+version: 0.0.1-SNAPSHOT
+package: EndtoEnd_sel.EndToEnd
+ Y: : [INFO] ----------------------------------------------------------------------------
+[INFO] Using following parameters for creating project from Archetype: maven-archetype-quickstart:1.4
+[INFO] ----------------------------------------------------------------------------
+[INFO] Parameter: groupId, Value: EndtoEnd_sel
+[INFO] Parameter: artifactId, Value: EndToEnd
+[INFO] Parameter: version, Value: 0.0.1-SNAPSHOT
+[INFO] Parameter: package, Value: EndtoEnd_sel.EndToEnd
+[INFO] Parameter: packageInPathFormat, Value: EndtoEnd_sel/EndToEnd
+[INFO] Parameter: package, Value: EndtoEnd_sel.EndToEnd
+[INFO] Parameter: groupId, Value: EndtoEnd_sel
+[INFO] Parameter: artifactId, Value: EndToEnd
+[INFO] Parameter: version, Value: 0.0.1-SNAPSHOT
+[INFO] [1m------------------------------------------------------------------------[m
+[INFO] [1;31mBUILD FAILURE[m
+[INFO] [1m------------------------------------------------------------------------[m
+[INFO] Total time:  5.926 s
+[INFO] Finished at: 2023-10-18T15:52:00-05:00
+[INFO] [1m------------------------------------------------------------------------[m
+[ERROR] Failed to execute goal [32morg.apache.maven.plugins:maven-archetype-plugin:3.2.1:generate[m [1m(default-cli)[m on project [36mstandalone-pom[m: [1;31mUnable to add module to the current project as it is not of packaging type 'pom'[m -> [1m[Help 1][m
+[ERROR] 
+[ERROR] To see the full stack trace of the errors, re-run Maven with the [1m-e[m switch.
+[ERROR] Re-run Maven using the [1m-X[m switch to enable full debug logging.
+[ERROR] 
+[ERROR] For more information about the errors and possible solutions, please read the following articles:
+[ERROR] [1m[Help 1][m http://cwiki.apache.org/confluence/display/MAVEN/MojoFailureException
+
+"===============================================================
+	at java.base/java.util.concurrent.CompletableFuture.reportGet(CompletableFuture.java:396)
+	at java.base/java.util.concurrent.CompletableFuture.get(CompletableFuture.java:2073)
+	at org.eclipse.m2e.core.ui.internal.archetype.ArchetypeGenerator.createArchetypeProjects(ArchetypeGenerator.java:164)
+	at org.eclipse.m2e.core.ui.internal.wizards.MavenProjectWizard$3.doCreateMavenProjects(MavenProjectWizard.java:246)
+	at org.eclipse.m2e.core.ui.internal.wizards.AbstractCreateMavenProjectJob$1.doCreateMavenProjects(AbstractCreateMavenProjectJob.java:51)
+	at org.eclipse.m2e.core.ui.internal.wizards.AbstractCreateMavenProjectsOperation.run(AbstractCreateMavenProjectsOperation.java:56)
+	at org.eclipse.m2e.core.ui.internal.wizards.AbstractCreateMavenProjectJob.runInWorkspace(AbstractCreateMavenProjectJob.java:55)
+	at org.eclipse.core.internal.resources.InternalWorkspaceJob.run(InternalWorkspaceJob.java:43)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+Caused by: java.lang.IllegalStateException: Process exit value was 1. Console printout:
+===============================================================
+[INFO] Scanning for projects...
+Downloading from : https://repo.maven.apache.org/maven2/org/codehaus/mojo/maven-metadata.xml
+Downloading from : https://repo.maven.apache.org/maven2/org/apache/maven/plugins/maven-metadata.xml
+Progress (1): 5.6/21 kBProgress (1): 2.8/21 kBProgress (1): 1.4/21 kBProgress (1): 1.4/21 kBProgress (1): 1.4/21 kBProgress (1): 1.4/21 kBProgress (1): 1.4/21 kBProgress (1): 1.4/21 kBProgress (1): 3.7/21 kBProgress (2): 3.7/21 kB | 1.4/14 kBProgress (2): 3.7/21 kB | 1.4/14 kBProgress (2): 3.7/21 kB | 1.4/14 kBProgress (2): 3.7/21 kB | 1.4/14 kBProgress (2): 3.7/21 kB | 1.4/14 kBProgress (2): 3.7/21 kB | 1.4/14 kBProgress (2): 3.7/21 kB | 1.4/14 kBProgress (2): 3.7/21 kB | 1.4/14 kBProgress (2): 3.7/21 kB | 1.4/14 kBProgress (2): 3.7/21 kB | 1.4/14 kBProgress (2): 3.7/21 kB | 0.2/14 kB                                   Downloaded from : https://repo.maven.apache.org/maven2/org/codehaus/mojo/maven-metadata.xml (21 kB at 44 kB/s)
+Downloaded from : https://repo.maven.apache.org/maven2/org/apache/maven/plugins/maven-metadata.xml (14 kB at 29 kB/s)
+Downloading from : https://repo.maven.apache.org/maven2/org/apache/maven/plugins/maven-archetype-plugin/maven-metadata.xml
+Progress (1): 980 B                   Downloaded from : https://repo.maven.apache.org/maven2/org/apache/maven/plugins/maven-archetype-plugin/maven-metadata.xml (980 B at 16 kB/s)
+[INFO] 
+[INFO] [1m------------------< [0;36morg.apache.maven:standalone-pom[0;1m >-------------------[m
+[INFO] [1mBuilding Maven Stub Project (No POM) 1[m
+[INFO] [1m--------------------------------[ pom ]---------------------------------[m
+[INFO] 
+[INFO] [1m>>> [0;32marchetype:3.2.1:generate[m [1m(default-cli)[0;1m > [0;1mgenerate-sources[m @ [36mstandalone-pom[0;1m >>>[m
+[INFO] 
+[INFO] [1m<<< [0;32marchetype:3.2.1:generate[m [1m(default-cli)[0;1m < [0;1mgenerate-sources[m @ [36mstandalone-pom[0;1m <<<[m
+[INFO] 
+[INFO] 
+[INFO] [1m--- [0;32marchetype:3.2.1:generate[m [1m(default-cli)[m @ [36mstandalone-pom[0;1m ---[m
+[INFO] Generating project in Interactive mode
+[INFO] Archetype repository not defined. Using the one from [org.apache.maven.archetypes:maven-archetype-quickstart:1.4] found in catalog remote
+[INFO] Using property: groupId = EndtoEnd_sel
+[INFO] Using property: artifactId = EndToEnd
+[INFO] Using property: version = 0.0.1-SNAPSHOT
+[INFO] Using property: package = EndtoEnd_sel.EndToEnd
+Confirm properties configuration:
+groupId: EndtoEnd_sel
+artifactId: EndToEnd
+version: 0.0.1-SNAPSHOT
+package: EndtoEnd_sel.EndToEnd
+ Y: : [INFO] ----------------------------------------------------------------------------
+[INFO] Using following parameters for creating project from Archetype: maven-archetype-quickstart:1.4
+[INFO] ----------------------------------------------------------------------------
+[INFO] Parameter: groupId, Value: EndtoEnd_sel
+[INFO] Parameter: artifactId, Value: EndToEnd
+[INFO] Parameter: version, Value: 0.0.1-SNAPSHOT
+[INFO] Parameter: package, Value: EndtoEnd_sel.EndToEnd
+[INFO] Parameter: packageInPathFormat, Value: EndtoEnd_sel/EndToEnd
+[INFO] Parameter: package, Value: EndtoEnd_sel.EndToEnd
+[INFO] Parameter: groupId, Value: EndtoEnd_sel
+[INFO] Parameter: artifactId, Value: EndToEnd
+[INFO] Parameter: version, Value: 0.0.1-SNAPSHOT
+[INFO] [1m------------------------------------------------------------------------[m
+[INFO] [1;31mBUILD FAILURE[m
+[INFO] [1m------------------------------------------------------------------------[m
+[INFO] Total time:  5.926 s
+[INFO] Finished at: 2023-10-18T15:52:00-05:00
+[INFO] [1m------------------------------------------------------------------------[m
+[ERROR] Failed to execute goal [32morg.apache.maven.plugins:maven-archetype-plugin:3.2.1:generate[m [1m(default-cli)[m on project [36mstandalone-pom[m: [1;31mUnable to add module to the current project as it is not of packaging type 'pom'[m -> [1m[Help 1][m
+[ERROR] 
+[ERROR] To see the full stack trace of the errors, re-run Maven with the [1m-e[m switch.
+[ERROR] Re-run Maven using the [1m-X[m switch to enable full debug logging.
+[ERROR] 
+[ERROR] For more information about the errors and possible solutions, please read the following articles:
+[ERROR] [1m[Help 1][m http://cwiki.apache.org/confluence/display/MAVEN/MojoFailureException
+
+"===============================================================
+	at org.eclipse.m2e.internal.launch.EclipseMavenLauncher$1.lambda$4(EclipseMavenLauncher.java:120)
+	at java.base/java.util.Optional.ifPresent(Optional.java:178)
+	at org.eclipse.m2e.internal.launch.EclipseMavenLauncher$1.launchesTerminated(EclipseMavenLauncher.java:107)
+	at org.eclipse.debug.internal.core.LaunchManager$LaunchesNotifier.run(LaunchManager.java:303)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:45)
+	at org.eclipse.debug.internal.core.LaunchManager$LaunchesNotifier.notify(LaunchManager.java:260)
+	at org.eclipse.debug.internal.core.LaunchManager.fireUpdate(LaunchManager.java:1057)
+	at org.eclipse.debug.core.Launch.fireTerminate(Launch.java:479)
+	at org.eclipse.debug.core.Launch.handleDebugEvents(Launch.java:644)
+	at org.eclipse.debug.core.DebugPlugin$EventNotifier.run(DebugPlugin.java:1225)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:45)
+	at org.eclipse.debug.core.DebugPlugin$EventNotifier.dispatch(DebugPlugin.java:1259)
+	at org.eclipse.debug.core.DebugPlugin$EventDispatchJob.run(DebugPlugin.java:491)
+	... 1 more
+
+!ENTRY org.eclipse.m2e.core.ui 4 0 2023-10-18 15:54:22.231
+!MESSAGE Failed to create project.
+!STACK 0
+java.util.concurrent.ExecutionException: java.lang.IllegalStateException: Process exit value was 1. Console printout:
+===============================================================
+[INFO] Scanning for projects...
+Downloading from : https://repo.maven.apache.org/maven2/org/codehaus/mojo/maven-metadata.xml
+Downloading from : https://repo.maven.apache.org/maven2/org/apache/maven/plugins/maven-metadata.xml
+Progress (1): 5.6/14 kBProgress (1): 1.4/14 kBProgress (1): 1.4/14 kBProgress (1): 1.4/14 kBProgress (1): 1.4/14 kBProgress (1): 1.4/14 kBProgress (1): 1.4/14 kBProgress (1): 0.2/14 kBProgress (2): 0.2/14 kB | 1.4/21 kBProgress (2): 0.2/14 kB | 1.4/21 kBProgress (2): 0.2/14 kB | 1.4/21 kBProgress (2): 0.2/14 kB | 1.4/21 kBProgress (2): 0.2/14 kB | 1.4/21 kBProgress (2): 0.2/14 kB | 1.4/21 kBProgress (2): 0.2/14 kB | 1.4/21 kBProgress (2): 0.2/14 kB | 1.4/21 kBProgress (2): 0.2/14 kB | 1.4/21 kBProgress (2): 0.2/14 kB | 1.4/21 kBProgress (2): 0.2/14 kB | 1.4/21 kBProgress (2): 0.2/14 kB | 1.4/21 kBProgress (2): 0.2/14 kB | 1.4/21 kBProgress (2): 0.2/14 kB | 1.4/21 kBProgress (2): 0.2/14 kB | 0.9/21 kB                                   Downloaded from : https://repo.maven.apache.org/maven2/org/apache/maven/plugins/maven-metadata.xml (14 kB at 19 kB/s)
+Downloaded from : https://repo.maven.apache.org/maven2/org/codehaus/mojo/maven-metadata.xml (21 kB at 26 kB/s)
+Downloading from : https://repo.maven.apache.org/maven2/org/apache/maven/plugins/maven-archetype-plugin/maven-metadata.xml
+Progress (1): 980 B                   Downloaded from : https://repo.maven.apache.org/maven2/org/apache/maven/plugins/maven-archetype-plugin/maven-metadata.xml (980 B at 18 kB/s)
+[INFO] 
+[INFO] [1m------------------< [0;36morg.apache.maven:standalone-pom[0;1m >-------------------[m
+[INFO] [1mBuilding Maven Stub Project (No POM) 1[m
+[INFO] [1m--------------------------------[ pom ]---------------------------------[m
+[INFO] 
+[INFO] [1m>>> [0;32marchetype:3.2.1:generate[m [1m(default-cli)[0;1m > [0;1mgenerate-sources[m @ [36mstandalone-pom[0;1m >>>[m
+[INFO] 
+[INFO] [1m<<< [0;32marchetype:3.2.1:generate[m [1m(default-cli)[0;1m < [0;1mgenerate-sources[m @ [36mstandalone-pom[0;1m <<<[m
+[INFO] 
+[INFO] 
+[INFO] [1m--- [0;32marchetype:3.2.1:generate[m [1m(default-cli)[m @ [36mstandalone-pom[0;1m ---[m
+[INFO] Generating project in Interactive mode
+[INFO] Archetype repository not defined. Using the one from [org.apache.maven.archetypes:maven-archetype-quickstart:1.4] found in catalog remote
+[INFO] Using property: groupId = EndtoEnd_sel
+[INFO] Using property: artifactId = EndtoEnd2
+[INFO] Using property: version = 0.0.1-SNAPSHOT
+[INFO] Using property: package = EndtoEnd_sel.EndtoEnd2
+Confirm properties configuration:
+groupId: EndtoEnd_sel
+artifactId: EndtoEnd2
+version: 0.0.1-SNAPSHOT
+package: EndtoEnd_sel.EndtoEnd2
+ Y: : [INFO] ----------------------------------------------------------------------------
+[INFO] Using following parameters for creating project from Archetype: maven-archetype-quickstart:1.4
+[INFO] ----------------------------------------------------------------------------
+[INFO] Parameter: groupId, Value: EndtoEnd_sel
+[INFO] Parameter: artifactId, Value: EndtoEnd2
+[INFO] Parameter: version, Value: 0.0.1-SNAPSHOT
+[INFO] Parameter: package, Value: EndtoEnd_sel.EndtoEnd2
+[INFO] Parameter: packageInPathFormat, Value: EndtoEnd_sel/EndtoEnd2
+[INFO] Parameter: package, Value: EndtoEnd_sel.EndtoEnd2
+[INFO] Parameter: groupId, Value: EndtoEnd_sel
+[INFO] Parameter: artifactId, Value: EndtoEnd2
+[INFO] Parameter: version, Value: 0.0.1-SNAPSHOT
+[INFO] [1m------------------------------------------------------------------------[m
+[INFO] [1;31mBUILD FAILURE[m
+[INFO] [1m------------------------------------------------------------------------[m
+[INFO] Total time:  7.568 s
+[INFO] Finished at: 2023-10-18T15:54:21-05:00
+[INFO] [1m------------------------------------------------------------------------[m
+[ERROR] Failed to execute goal [32morg.apache.maven.plugins:maven-archetype-plugin:3.2.1:generate[m [1m(default-cli)[m on project [36mstandalone-pom[m: [1;31mUnable to add module to the current project as it is not of packaging type 'pom'[m -> [1m[Help 1][m
+[ERROR] 
+[ERROR] To see the full stack trace of the errors, re-run Maven with the [1m-e[m switch.
+[ERROR] Re-run Maven using the [1m-X[m switch to enable full debug logging.
+[ERROR] 
+[ERROR] For more information about the errors and possible solutions, please read the following articles:
+[ERROR] [1m[Help 1][m http://cwiki.apache.org/confluence/display/MAVEN/MojoFailureException
+
+"===============================================================
+	at java.base/java.util.concurrent.CompletableFuture.reportGet(CompletableFuture.java:396)
+	at java.base/java.util.concurrent.CompletableFuture.get(CompletableFuture.java:2073)
+	at org.eclipse.m2e.core.ui.internal.archetype.ArchetypeGenerator.createArchetypeProjects(ArchetypeGenerator.java:164)
+	at org.eclipse.m2e.core.ui.internal.wizards.MavenProjectWizard$3.doCreateMavenProjects(MavenProjectWizard.java:246)
+	at org.eclipse.m2e.core.ui.internal.wizards.AbstractCreateMavenProjectJob$1.doCreateMavenProjects(AbstractCreateMavenProjectJob.java:51)
+	at org.eclipse.m2e.core.ui.internal.wizards.AbstractCreateMavenProjectsOperation.run(AbstractCreateMavenProjectsOperation.java:56)
+	at org.eclipse.m2e.core.ui.internal.wizards.AbstractCreateMavenProjectJob.runInWorkspace(AbstractCreateMavenProjectJob.java:55)
+	at org.eclipse.core.internal.resources.InternalWorkspaceJob.run(InternalWorkspaceJob.java:43)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+Caused by: java.lang.IllegalStateException: Process exit value was 1. Console printout:
+===============================================================
+[INFO] Scanning for projects...
+Downloading from : https://repo.maven.apache.org/maven2/org/codehaus/mojo/maven-metadata.xml
+Downloading from : https://repo.maven.apache.org/maven2/org/apache/maven/plugins/maven-metadata.xml
+Progress (1): 5.6/14 kBProgress (1): 1.4/14 kBProgress (1): 1.4/14 kBProgress (1): 1.4/14 kBProgress (1): 1.4/14 kBProgress (1): 1.4/14 kBProgress (1): 1.4/14 kBProgress (1): 0.2/14 kBProgress (2): 0.2/14 kB | 1.4/21 kBProgress (2): 0.2/14 kB | 1.4/21 kBProgress (2): 0.2/14 kB | 1.4/21 kBProgress (2): 0.2/14 kB | 1.4/21 kBProgress (2): 0.2/14 kB | 1.4/21 kBProgress (2): 0.2/14 kB | 1.4/21 kBProgress (2): 0.2/14 kB | 1.4/21 kBProgress (2): 0.2/14 kB | 1.4/21 kBProgress (2): 0.2/14 kB | 1.4/21 kBProgress (2): 0.2/14 kB | 1.4/21 kBProgress (2): 0.2/14 kB | 1.4/21 kBProgress (2): 0.2/14 kB | 1.4/21 kBProgress (2): 0.2/14 kB | 1.4/21 kBProgress (2): 0.2/14 kB | 1.4/21 kBProgress (2): 0.2/14 kB | 0.9/21 kB                                   Downloaded from : https://repo.maven.apache.org/maven2/org/apache/maven/plugins/maven-metadata.xml (14 kB at 19 kB/s)
+Downloaded from : https://repo.maven.apache.org/maven2/org/codehaus/mojo/maven-metadata.xml (21 kB at 26 kB/s)
+Downloading from : https://repo.maven.apache.org/maven2/org/apache/maven/plugins/maven-archetype-plugin/maven-metadata.xml
+Progress (1): 980 B                   Downloaded from : https://repo.maven.apache.org/maven2/org/apache/maven/plugins/maven-archetype-plugin/maven-metadata.xml (980 B at 18 kB/s)
+[INFO] 
+[INFO] [1m------------------< [0;36morg.apache.maven:standalone-pom[0;1m >-------------------[m
+[INFO] [1mBuilding Maven Stub Project (No POM) 1[m
+[INFO] [1m--------------------------------[ pom ]---------------------------------[m
+[INFO] 
+[INFO] [1m>>> [0;32marchetype:3.2.1:generate[m [1m(default-cli)[0;1m > [0;1mgenerate-sources[m @ [36mstandalone-pom[0;1m >>>[m
+[INFO] 
+[INFO] [1m<<< [0;32marchetype:3.2.1:generate[m [1m(default-cli)[0;1m < [0;1mgenerate-sources[m @ [36mstandalone-pom[0;1m <<<[m
+[INFO] 
+[INFO] 
+[INFO] [1m--- [0;32marchetype:3.2.1:generate[m [1m(default-cli)[m @ [36mstandalone-pom[0;1m ---[m
+[INFO] Generating project in Interactive mode
+[INFO] Archetype repository not defined. Using the one from [org.apache.maven.archetypes:maven-archetype-quickstart:1.4] found in catalog remote
+[INFO] Using property: groupId = EndtoEnd_sel
+[INFO] Using property: artifactId = EndtoEnd2
+[INFO] Using property: version = 0.0.1-SNAPSHOT
+[INFO] Using property: package = EndtoEnd_sel.EndtoEnd2
+Confirm properties configuration:
+groupId: EndtoEnd_sel
+artifactId: EndtoEnd2
+version: 0.0.1-SNAPSHOT
+package: EndtoEnd_sel.EndtoEnd2
+ Y: : [INFO] ----------------------------------------------------------------------------
+[INFO] Using following parameters for creating project from Archetype: maven-archetype-quickstart:1.4
+[INFO] ----------------------------------------------------------------------------
+[INFO] Parameter: groupId, Value: EndtoEnd_sel
+[INFO] Parameter: artifactId, Value: EndtoEnd2
+[INFO] Parameter: version, Value: 0.0.1-SNAPSHOT
+[INFO] Parameter: package, Value: EndtoEnd_sel.EndtoEnd2
+[INFO] Parameter: packageInPathFormat, Value: EndtoEnd_sel/EndtoEnd2
+[INFO] Parameter: package, Value: EndtoEnd_sel.EndtoEnd2
+[INFO] Parameter: groupId, Value: EndtoEnd_sel
+[INFO] Parameter: artifactId, Value: EndtoEnd2
+[INFO] Parameter: version, Value: 0.0.1-SNAPSHOT
+[INFO] [1m------------------------------------------------------------------------[m
+[INFO] [1;31mBUILD FAILURE[m
+[INFO] [1m------------------------------------------------------------------------[m
+[INFO] Total time:  7.568 s
+[INFO] Finished at: 2023-10-18T15:54:21-05:00
+[INFO] [1m------------------------------------------------------------------------[m
+[ERROR] Failed to execute goal [32morg.apache.maven.plugins:maven-archetype-plugin:3.2.1:generate[m [1m(default-cli)[m on project [36mstandalone-pom[m: [1;31mUnable to add module to the current project as it is not of packaging type 'pom'[m -> [1m[Help 1][m
+[ERROR] 
+[ERROR] To see the full stack trace of the errors, re-run Maven with the [1m-e[m switch.
+[ERROR] Re-run Maven using the [1m-X[m switch to enable full debug logging.
+[ERROR] 
+[ERROR] For more information about the errors and possible solutions, please read the following articles:
+[ERROR] [1m[Help 1][m http://cwiki.apache.org/confluence/display/MAVEN/MojoFailureException
+
+"===============================================================
+	at org.eclipse.m2e.internal.launch.EclipseMavenLauncher$1.lambda$4(EclipseMavenLauncher.java:120)
+	at java.base/java.util.Optional.ifPresent(Optional.java:178)
+	at org.eclipse.m2e.internal.launch.EclipseMavenLauncher$1.launchesTerminated(EclipseMavenLauncher.java:107)
+	at org.eclipse.debug.internal.core.LaunchManager$LaunchesNotifier.run(LaunchManager.java:303)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:45)
+	at org.eclipse.debug.internal.core.LaunchManager$LaunchesNotifier.notify(LaunchManager.java:260)
+	at org.eclipse.debug.internal.core.LaunchManager.fireUpdate(LaunchManager.java:1057)
+	at org.eclipse.debug.core.Launch.fireTerminate(Launch.java:479)
+	at org.eclipse.debug.core.Launch.handleDebugEvents(Launch.java:644)
+	at org.eclipse.debug.core.DebugPlugin$EventNotifier.run(DebugPlugin.java:1225)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:45)
+	at org.eclipse.debug.core.DebugPlugin$EventNotifier.dispatch(DebugPlugin.java:1259)
+	at org.eclipse.debug.core.DebugPlugin$EventDispatchJob.run(DebugPlugin.java:491)
+	... 1 more
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2023-10-18 15:57:19.783
+!MESSAGE Error injecting: org.apache.maven.plugins.resources.TestResourcesMojo
+!STACK 0
+com.google.inject.ProvisionException: Unable to provision, see the following errors:
+
+1) No implementation for MavenResourcesFiltering was bound.
+  while locating TestResourcesMojo
+
+1 error
+
+======================
+Full classname legend:
+======================
+MavenResourcesFiltering: "org.apache.maven.shared.filtering.MavenResourcesFiltering"
+TestResourcesMojo:       "org.apache.maven.plugins.resources.TestResourcesMojo"
+========================
+End of classname legend:
+========================
+
+	at com.google.inject.internal.InternalProvisionException.toProvisionException(InternalProvisionException.java:251)
+	at com.google.inject.internal.InjectorImpl$1.get(InjectorImpl.java:1104)
+	at com.google.inject.internal.InjectorImpl.getInstance(InjectorImpl.java:1139)
+	at org.eclipse.sisu.space.AbstractDeferredClass.get(AbstractDeferredClass.java:48)
+	at com.google.inject.internal.ProviderInternalFactory.provision(ProviderInternalFactory.java:86)
+	at com.google.inject.internal.InternalFactoryToInitializableAdapter.provision(InternalFactoryToInitializableAdapter.java:57)
+	at com.google.inject.internal.ProviderInternalFactory$1.call(ProviderInternalFactory.java:67)
+	at com.google.inject.internal.ProvisionListenerStackCallback$Provision.provision(ProvisionListenerStackCallback.java:109)
+	at com.google.inject.internal.ProvisionListenerStackCallback$Provision.provision(ProvisionListenerStackCallback.java:124)
+	at com.google.inject.internal.ProvisionListenerStackCallback.provision(ProvisionListenerStackCallback.java:66)
+	at com.google.inject.internal.ProviderInternalFactory.circularGet(ProviderInternalFactory.java:62)
+	at com.google.inject.internal.InternalFactoryToInitializableAdapter.get(InternalFactoryToInitializableAdapter.java:47)
+	at com.google.inject.internal.InjectorImpl$1.get(InjectorImpl.java:1101)
+	at org.eclipse.sisu.inject.Guice4$1.get(Guice4.java:162)
+	at org.eclipse.sisu.inject.LazyBeanEntry.getValue(LazyBeanEntry.java:81)
+	at org.eclipse.sisu.plexus.LazyPlexusBean.getValue(LazyPlexusBean.java:51)
+	at org.codehaus.plexus.DefaultPlexusContainer.lookup(DefaultPlexusContainer.java:263)
+	at org.codehaus.plexus.DefaultPlexusContainer.lookup(DefaultPlexusContainer.java:255)
+	at org.apache.maven.plugin.internal.DefaultMavenPluginManager.getConfiguredMojo(DefaultMavenPluginManager.java:491)
+	at org.apache.maven.plugin.DefaultBuildPluginManager.executeMojo(DefaultBuildPluginManager.java:114)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.executeMojo(MavenExecutionContext.java:338)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.lambda$0(MavenExecutionContext.java:291)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.executeBare(MavenExecutionContext.java:394)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:275)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:290)
+	at org.eclipse.m2e.core.project.configurator.MojoExecutionBuildParticipant.build(MojoExecutionBuildParticipant.java:57)
+	at org.eclipse.m2e.core.internal.builder.MavenBuilderImpl.lambda$2(MavenBuilderImpl.java:153)
+	at java.base/java.util.LinkedHashMap.forEach(LinkedHashMap.java:986)
+	at org.eclipse.m2e.core.internal.builder.MavenBuilderImpl.build(MavenBuilderImpl.java:133)
+	at org.eclipse.m2e.core.internal.builder.MavenBuilder$1.method(MavenBuilder.java:164)
+	at org.eclipse.m2e.core.internal.builder.MavenBuilder$1.method(MavenBuilder.java:1)
+	at org.eclipse.m2e.core.internal.builder.MavenBuilder$BuildMethod.lambda$1(MavenBuilder.java:109)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.executeBare(MavenExecutionContext.java:394)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:228)
+	at org.eclipse.m2e.core.internal.builder.MavenBuilder$BuildMethod.lambda$0(MavenBuilder.java:100)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.executeBare(MavenExecutionContext.java:394)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:275)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:214)
+	at org.eclipse.m2e.core.internal.builder.MavenBuilder$BuildMethod.execute(MavenBuilder.java:83)
+	at org.eclipse.m2e.core.internal.builder.MavenBuilder.build(MavenBuilder.java:192)
+	at org.eclipse.core.internal.events.BuildManager$2.run(BuildManager.java:1079)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:45)
+	at org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:296)
+	at org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:352)
+	at org.eclipse.core.internal.events.BuildManager$1.run(BuildManager.java:441)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:45)
+	at org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:444)
+	at org.eclipse.core.internal.events.BuildManager.basicBuildLoop(BuildManager.java:555)
+	at org.eclipse.core.internal.events.BuildManager.basicBuildLoop(BuildManager.java:503)
+	at org.eclipse.core.internal.events.BuildManager.build(BuildManager.java:585)
+	at org.eclipse.core.internal.events.AutoBuildJob.doBuild(AutoBuildJob.java:207)
+	at org.eclipse.core.internal.events.AutoBuildJob.run(AutoBuildJob.java:300)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2023-10-18 15:57:22.946
+!MESSAGE Could not find OSGI service for org.eclipse.m2e.core.internal.markers.IEditorMarkerService
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2023-10-18 15:57:23.270
+!MESSAGE Could not find OSGI service for org.eclipse.m2e.core.internal.markers.IEditorMarkerService
+
+!ENTRY org.eclipse.core.resources 2 10035 2023-10-18 15:57:23.395
+!MESSAGE The workspace will exit with unsaved changes in this session.
+!SESSION 2023-10-18 15:57:24.820 -----------------------------------------------
+eclipse.buildId=4.29.0.20230907-1200
+java.version=21
+java.vendor=Eclipse Adoptium
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=en_US
+Framework arguments:  -product org.eclipse.epp.package.jee.product
+Command-line arguments:  -os win32 -ws win32 -arch x86_64 -product org.eclipse.epp.package.jee.product
+
+!ENTRY org.eclipse.emf.ecore 2 0 2023-10-18 15:57:27.182
+!MESSAGE Both 'org.eclipse.jst.j2ee.core' and 'org.eclipse.jst.j2ee.core' register a package for 'application.xmi'
+
+!ENTRY ch.qos.logback.classic 1 0 2023-10-18 15:57:27.418
+!MESSAGE Activated before the state location was initialized. Retry after the state location is initialized.
+
+!ENTRY org.eclipse.core.resources 2 10035 2023-10-18 15:57:30.852
+!MESSAGE The workspace exited with unsaved changes in the previous session; refreshing workspace to recover changes.
+
+!ENTRY ch.qos.logback.classic 1 0 2023-10-18 15:57:31.540
+!MESSAGE Logback config file: C:\Users\Nihir\eclipse-workspace\rahul_selenium\.metadata\.plugins\org.eclipse.m2e.logback\logback.2.2.0.20230625-0847.xml
+
+!ENTRY org.eclipse.jface 2 0 2023-10-18 15:57:33.088
+!MESSAGE Keybinding conflicts occurred.  They may interfere with normal accelerator operation.
+!SUBENTRY 1 org.eclipse.jface 2 0 2023-10-18 15:57:33.088
+!MESSAGE A conflict occurred for CTRL+SHIFT+T:
+Binding(CTRL+SHIFT+T,
+	ParameterizedCommand(Command(org.eclipse.jdt.ui.navigate.open.type,Open Type,
+		Open a type in a Java editor,
+		Category(org.eclipse.ui.category.navigate,Navigate,null,true),
+		WorkbenchHandlerServiceHandler("org.eclipse.jdt.ui.navigate.open.type"),
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,,system)
+Binding(CTRL+SHIFT+T,
+	ParameterizedCommand(Command(org.eclipse.lsp4e.symbolinworkspace,Go to Symbol in Workspace,
+		,
+		Category(org.eclipse.lsp4e.category,Language Servers,null,true),
+		WorkbenchHandlerServiceHandler("org.eclipse.lsp4e.symbolinworkspace"),
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,,system)
+
+!ENTRY org.eclipse.egit.ui 2 0 2023-10-18 15:57:34.691
+!MESSAGE Warning: The environment variable HOME is not set. The following directory will be used to store the Git
+user global configuration and to define the default location to store repositories: 'C:\Users\Nihir'. If this is
+not correct please set the HOME environment variable and restart Eclipse. Otherwise Git for Windows and
+EGit might behave differently since they see different configuration options.
+This warning can be switched off on the Team > Git > Confirmations and Warnings preference page.
+
+!ENTRY org.eclipse.m2e.core.ui 4 0 2023-10-18 15:58:59.352
+!MESSAGE Failed to create project.
+!STACK 0
+java.util.concurrent.ExecutionException: java.lang.IllegalStateException: Process exit value was 1. Console printout:
+===============================================================
+[INFO] Scanning for projects...
+Downloading from : https://repo.maven.apache.org/maven2/org/codehaus/mojo/maven-metadata.xml
+Downloading from : https://repo.maven.apache.org/maven2/org/apache/maven/plugins/maven-metadata.xml
+Progress (1): 5.6/14 kBProgress (1): 2.8/14 kBProgress (1): 1.4/14 kBProgress (1): 1.4/14 kBProgress (1): 2.8/14 kBProgress (1): 0.2/14 kBProgress (2): 0.2/14 kB | 1.4/21 kBProgress (2): 0.2/14 kB | 1.4/21 kBProgress (2): 0.2/14 kB | 1.4/21 kBProgress (2): 0.2/14 kB | 1.4/21 kBProgress (2): 0.2/14 kB | 1.4/21 kBProgress (2): 0.2/14 kB | 1.4/21 kBProgress (2): 0.2/14 kB | 2.8/21 kBProgress (2): 0.2/14 kB | 1.4/21 kBProgress (2): 0.2/14 kB | 1.4/21 kBProgress (2): 0.2/14 kB | 1.4/21 kBProgress (2): 0.2/14 kB | 0.9/21 kBProgress (2): 0.2/14 kB | 0.5/21 kBProgress (2): 0.2/14 kB | 1.4/21 kBProgress (2): 0.2/14 kB | 1.4/21 kBProgress (2): 0.2/14 kB | 0.9/21 kB                                   Downloaded from : https://repo.maven.apache.org/maven2/org/apache/maven/plugins/maven-metadata.xml (14 kB at 22 kB/s)
+Downloaded from : https://repo.maven.apache.org/maven2/org/codehaus/mojo/maven-metadata.xml (21 kB at 31 kB/s)
+Downloading from : https://repo.maven.apache.org/maven2/org/apache/maven/plugins/maven-archetype-plugin/maven-metadata.xml
+Progress (1): 980 B                   Downloaded from : https://repo.maven.apache.org/maven2/org/apache/maven/plugins/maven-archetype-plugin/maven-metadata.xml (980 B at 15 kB/s)
+[INFO] 
+[INFO] [1m------------------< [0;36morg.apache.maven:standalone-pom[0;1m >-------------------[m
+[INFO] [1mBuilding Maven Stub Project (No POM) 1[m
+[INFO] [1m--------------------------------[ pom ]---------------------------------[m
+[INFO] 
+[INFO] [1m>>> [0;32marchetype:3.2.1:generate[m [1m(default-cli)[0;1m > [0;1mgenerate-sources[m @ [36mstandalone-pom[0;1m >>>[m
+[INFO] 
+[INFO] [1m<<< [0;32marchetype:3.2.1:generate[m [1m(default-cli)[0;1m < [0;1mgenerate-sources[m @ [36mstandalone-pom[0;1m <<<[m
+[INFO] 
+[INFO] 
+[INFO] [1m--- [0;32marchetype:3.2.1:generate[m [1m(default-cli)[m @ [36mstandalone-pom[0;1m ---[m
+[INFO] Generating project in Interactive mode
+[INFO] Archetype repository not defined. Using the one from [org.apache.maven.archetypes:maven-archetype-quickstart:1.4] found in catalog remote
+[INFO] Using property: groupId = EndtoEnd_sel1
+[INFO] Using property: artifactId = TestNG
+[INFO] Using property: version = 0.0.1-SNAPSHOT
+[INFO] Using property: package = EndtoEnd_sel1.TestNG
+Confirm properties configuration:
+groupId: EndtoEnd_sel1
+artifactId: TestNG
+version: 0.0.1-SNAPSHOT
+package: EndtoEnd_sel1.TestNG
+ Y: : [INFO] ----------------------------------------------------------------------------
+[INFO] Using following parameters for creating project from Archetype: maven-archetype-quickstart:1.4
+[INFO] ----------------------------------------------------------------------------
+[INFO] Parameter: groupId, Value: EndtoEnd_sel1
+[INFO] Parameter: artifactId, Value: TestNG
+[INFO] Parameter: version, Value: 0.0.1-SNAPSHOT
+[INFO] Parameter: package, Value: EndtoEnd_sel1.TestNG
+[INFO] Parameter: packageInPathFormat, Value: EndtoEnd_sel1/TestNG
+[INFO] Parameter: package, Value: EndtoEnd_sel1.TestNG
+[INFO] Parameter: groupId, Value: EndtoEnd_sel1
+[INFO] Parameter: artifactId, Value: TestNG
+[INFO] Parameter: version, Value: 0.0.1-SNAPSHOT
+[INFO] [1m------------------------------------------------------------------------[m
+[INFO] [1;31mBUILD FAILURE[m
+[INFO] [1m------------------------------------------------------------------------[m
+[INFO] Total time:  7.773 s
+[INFO] Finished at: 2023-10-18T15:58:58-05:00
+[INFO] [1m------------------------------------------------------------------------[m
+[ERROR] Failed to execute goal [32morg.apache.maven.plugins:maven-archetype-plugin:3.2.1:generate[m [1m(default-cli)[m on project [36mstandalone-pom[m: [1;31mUnable to add module to the current project as it is not of packaging type 'pom'[m -> [1m[Help 1][m
+[ERROR] 
+[ERROR] To see the full stack trace of the errors, re-run Maven with the [1m-e[m switch.
+[ERROR] Re-run Maven using the [1m-X[m switch to enable full debug logging.
+[ERROR] 
+[ERROR] For more information about the errors and possible solutions, please read the following articles:
+[ERROR] [1m[Help 1][m http://cwiki.apache.org/confluence/display/MAVEN/MojoFailureException
+
+"===============================================================
+	at java.base/java.util.concurrent.CompletableFuture.reportGet(CompletableFuture.java:396)
+	at java.base/java.util.concurrent.CompletableFuture.get(CompletableFuture.java:2073)
+	at org.eclipse.m2e.core.ui.internal.archetype.ArchetypeGenerator.createArchetypeProjects(ArchetypeGenerator.java:164)
+	at org.eclipse.m2e.core.ui.internal.wizards.MavenProjectWizard$3.doCreateMavenProjects(MavenProjectWizard.java:246)
+	at org.eclipse.m2e.core.ui.internal.wizards.AbstractCreateMavenProjectJob$1.doCreateMavenProjects(AbstractCreateMavenProjectJob.java:51)
+	at org.eclipse.m2e.core.ui.internal.wizards.AbstractCreateMavenProjectsOperation.run(AbstractCreateMavenProjectsOperation.java:56)
+	at org.eclipse.m2e.core.ui.internal.wizards.AbstractCreateMavenProjectJob.runInWorkspace(AbstractCreateMavenProjectJob.java:55)
+	at org.eclipse.core.internal.resources.InternalWorkspaceJob.run(InternalWorkspaceJob.java:43)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+Caused by: java.lang.IllegalStateException: Process exit value was 1. Console printout:
+===============================================================
+[INFO] Scanning for projects...
+Downloading from : https://repo.maven.apache.org/maven2/org/codehaus/mojo/maven-metadata.xml
+Downloading from : https://repo.maven.apache.org/maven2/org/apache/maven/plugins/maven-metadata.xml
+Progress (1): 5.6/14 kBProgress (1): 2.8/14 kBProgress (1): 1.4/14 kBProgress (1): 1.4/14 kBProgress (1): 2.8/14 kBProgress (1): 0.2/14 kBProgress (2): 0.2/14 kB | 1.4/21 kBProgress (2): 0.2/14 kB | 1.4/21 kBProgress (2): 0.2/14 kB | 1.4/21 kBProgress (2): 0.2/14 kB | 1.4/21 kBProgress (2): 0.2/14 kB | 1.4/21 kBProgress (2): 0.2/14 kB | 1.4/21 kBProgress (2): 0.2/14 kB | 2.8/21 kBProgress (2): 0.2/14 kB | 1.4/21 kBProgress (2): 0.2/14 kB | 1.4/21 kBProgress (2): 0.2/14 kB | 1.4/21 kBProgress (2): 0.2/14 kB | 0.9/21 kBProgress (2): 0.2/14 kB | 0.5/21 kBProgress (2): 0.2/14 kB | 1.4/21 kBProgress (2): 0.2/14 kB | 1.4/21 kBProgress (2): 0.2/14 kB | 0.9/21 kB                                   Downloaded from : https://repo.maven.apache.org/maven2/org/apache/maven/plugins/maven-metadata.xml (14 kB at 22 kB/s)
+Downloaded from : https://repo.maven.apache.org/maven2/org/codehaus/mojo/maven-metadata.xml (21 kB at 31 kB/s)
+Downloading from : https://repo.maven.apache.org/maven2/org/apache/maven/plugins/maven-archetype-plugin/maven-metadata.xml
+Progress (1): 980 B                   Downloaded from : https://repo.maven.apache.org/maven2/org/apache/maven/plugins/maven-archetype-plugin/maven-metadata.xml (980 B at 15 kB/s)
+[INFO] 
+[INFO] [1m------------------< [0;36morg.apache.maven:standalone-pom[0;1m >-------------------[m
+[INFO] [1mBuilding Maven Stub Project (No POM) 1[m
+[INFO] [1m--------------------------------[ pom ]---------------------------------[m
+[INFO] 
+[INFO] [1m>>> [0;32marchetype:3.2.1:generate[m [1m(default-cli)[0;1m > [0;1mgenerate-sources[m @ [36mstandalone-pom[0;1m >>>[m
+[INFO] 
+[INFO] [1m<<< [0;32marchetype:3.2.1:generate[m [1m(default-cli)[0;1m < [0;1mgenerate-sources[m @ [36mstandalone-pom[0;1m <<<[m
+[INFO] 
+[INFO] 
+[INFO] [1m--- [0;32marchetype:3.2.1:generate[m [1m(default-cli)[m @ [36mstandalone-pom[0;1m ---[m
+[INFO] Generating project in Interactive mode
+[INFO] Archetype repository not defined. Using the one from [org.apache.maven.archetypes:maven-archetype-quickstart:1.4] found in catalog remote
+[INFO] Using property: groupId = EndtoEnd_sel1
+[INFO] Using property: artifactId = TestNG
+[INFO] Using property: version = 0.0.1-SNAPSHOT
+[INFO] Using property: package = EndtoEnd_sel1.TestNG
+Confirm properties configuration:
+groupId: EndtoEnd_sel1
+artifactId: TestNG
+version: 0.0.1-SNAPSHOT
+package: EndtoEnd_sel1.TestNG
+ Y: : [INFO] ----------------------------------------------------------------------------
+[INFO] Using following parameters for creating project from Archetype: maven-archetype-quickstart:1.4
+[INFO] ----------------------------------------------------------------------------
+[INFO] Parameter: groupId, Value: EndtoEnd_sel1
+[INFO] Parameter: artifactId, Value: TestNG
+[INFO] Parameter: version, Value: 0.0.1-SNAPSHOT
+[INFO] Parameter: package, Value: EndtoEnd_sel1.TestNG
+[INFO] Parameter: packageInPathFormat, Value: EndtoEnd_sel1/TestNG
+[INFO] Parameter: package, Value: EndtoEnd_sel1.TestNG
+[INFO] Parameter: groupId, Value: EndtoEnd_sel1
+[INFO] Parameter: artifactId, Value: TestNG
+[INFO] Parameter: version, Value: 0.0.1-SNAPSHOT
+[INFO] [1m------------------------------------------------------------------------[m
+[INFO] [1;31mBUILD FAILURE[m
+[INFO] [1m------------------------------------------------------------------------[m
+[INFO] Total time:  7.773 s
+[INFO] Finished at: 2023-10-18T15:58:58-05:00
+[INFO] [1m------------------------------------------------------------------------[m
+[ERROR] Failed to execute goal [32morg.apache.maven.plugins:maven-archetype-plugin:3.2.1:generate[m [1m(default-cli)[m on project [36mstandalone-pom[m: [1;31mUnable to add module to the current project as it is not of packaging type 'pom'[m -> [1m[Help 1][m
+[ERROR] 
+[ERROR] To see the full stack trace of the errors, re-run Maven with the [1m-e[m switch.
+[ERROR] Re-run Maven using the [1m-X[m switch to enable full debug logging.
+[ERROR] 
+[ERROR] For more information about the errors and possible solutions, please read the following articles:
+[ERROR] [1m[Help 1][m http://cwiki.apache.org/confluence/display/MAVEN/MojoFailureException
+
+"===============================================================
+	at org.eclipse.m2e.internal.launch.EclipseMavenLauncher$1.lambda$4(EclipseMavenLauncher.java:120)
+	at java.base/java.util.Optional.ifPresent(Optional.java:178)
+	at org.eclipse.m2e.internal.launch.EclipseMavenLauncher$1.launchesTerminated(EclipseMavenLauncher.java:107)
+	at org.eclipse.debug.internal.core.LaunchManager$LaunchesNotifier.run(LaunchManager.java:303)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:45)
+	at org.eclipse.debug.internal.core.LaunchManager$LaunchesNotifier.notify(LaunchManager.java:260)
+	at org.eclipse.debug.internal.core.LaunchManager.fireUpdate(LaunchManager.java:1057)
+	at org.eclipse.debug.core.Launch.fireTerminate(Launch.java:479)
+	at org.eclipse.debug.core.Launch.handleDebugEvents(Launch.java:644)
+	at org.eclipse.debug.core.DebugPlugin$EventNotifier.run(DebugPlugin.java:1225)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:45)
+	at org.eclipse.debug.core.DebugPlugin$EventNotifier.dispatch(DebugPlugin.java:1259)
+	at org.eclipse.debug.core.DebugPlugin$EventDispatchJob.run(DebugPlugin.java:491)
+	... 1 more
+!SESSION 2023-10-18 16:01:01.990 -----------------------------------------------
+eclipse.buildId=4.29.0.20230907-1200
+java.version=21
+java.vendor=Eclipse Adoptium
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=en_US
+Framework arguments:  -product org.eclipse.epp.package.jee.product -product org.eclipse.epp.package.jee.product
+Command-line arguments:  -os win32 -ws win32 -arch x86_64 -product org.eclipse.epp.package.jee.product -data file:/C:/Users/Nihir/eclipse-workspace/rahul_selenium/ -product org.eclipse.epp.package.jee.product
+
+!ENTRY org.eclipse.emf.ecore 2 0 2023-10-18 16:01:05.089
+!MESSAGE Both 'org.eclipse.jst.j2ee.core' and 'org.eclipse.jst.j2ee.core' register a package for 'application.xmi'
+
+!ENTRY ch.qos.logback.classic 1 0 2023-10-18 16:01:05.279
+!MESSAGE Activated before the state location was initialized. Retry after the state location is initialized.
+
+!ENTRY ch.qos.logback.classic 1 0 2023-10-18 16:01:06.213
+!MESSAGE Logback config file: C:\Users\Nihir\eclipse-workspace\rahul_selenium\.metadata\.plugins\org.eclipse.m2e.logback\logback.2.2.0.20230625-0847.xml
+
+!ENTRY org.eclipse.jface 2 0 2023-10-18 16:01:07.475
+!MESSAGE Keybinding conflicts occurred.  They may interfere with normal accelerator operation.
+!SUBENTRY 1 org.eclipse.jface 2 0 2023-10-18 16:01:07.475
+!MESSAGE A conflict occurred for CTRL+SHIFT+T:
+Binding(CTRL+SHIFT+T,
+	ParameterizedCommand(Command(org.eclipse.jdt.ui.navigate.open.type,Open Type,
+		Open a type in a Java editor,
+		Category(org.eclipse.ui.category.navigate,Navigate,null,true),
+		WorkbenchHandlerServiceHandler("org.eclipse.jdt.ui.navigate.open.type"),
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,,system)
+Binding(CTRL+SHIFT+T,
+	ParameterizedCommand(Command(org.eclipse.lsp4e.symbolinworkspace,Go to Symbol in Workspace,
+		,
+		Category(org.eclipse.lsp4e.category,Language Servers,null,true),
+		WorkbenchHandlerServiceHandler("org.eclipse.lsp4e.symbolinworkspace"),
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,,system)
+
+!ENTRY org.eclipse.egit.ui 2 0 2023-10-18 16:01:09.135
+!MESSAGE Warning: The environment variable HOME is not set. The following directory will be used to store the Git
+user global configuration and to define the default location to store repositories: 'C:\Users\Nihir'. If this is
+not correct please set the HOME environment variable and restart Eclipse. Otherwise Git for Windows and
+EGit might behave differently since they see different configuration options.
+This warning can be switched off on the Team > Git > Confirmations and Warnings preference page.
+!SESSION 2023-10-18 16:01:46.056 -----------------------------------------------
+eclipse.buildId=4.29.0.20230907-1200
+java.version=21
+java.vendor=Eclipse Adoptium
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=en_US
+Framework arguments:  -product org.eclipse.epp.package.jee.product -product org.eclipse.epp.package.jee.product -product org.eclipse.epp.package.jee.product
+Command-line arguments:  -os win32 -ws win32 -arch x86_64 -product org.eclipse.epp.package.jee.product -product org.eclipse.epp.package.jee.product -data file:/C:/Users/Nihir/eclipse-workspace/rahul_selenium/ -product org.eclipse.epp.package.jee.product
+
+!ENTRY org.eclipse.emf.ecore 2 0 2023-10-18 16:01:48.995
+!MESSAGE Both 'org.eclipse.jst.j2ee.core' and 'org.eclipse.jst.j2ee.core' register a package for 'application.xmi'
+
+!ENTRY ch.qos.logback.classic 1 0 2023-10-18 16:01:49.186
+!MESSAGE Activated before the state location was initialized. Retry after the state location is initialized.
+
+!ENTRY ch.qos.logback.classic 1 0 2023-10-18 16:01:50.166
+!MESSAGE Logback config file: C:\Users\Nihir\eclipse-workspace\rahul_selenium\.metadata\.plugins\org.eclipse.m2e.logback\logback.2.2.0.20230625-0847.xml
+
+!ENTRY org.eclipse.jface 2 0 2023-10-18 16:01:51.442
+!MESSAGE Keybinding conflicts occurred.  They may interfere with normal accelerator operation.
+!SUBENTRY 1 org.eclipse.jface 2 0 2023-10-18 16:01:51.442
+!MESSAGE A conflict occurred for CTRL+SHIFT+T:
+Binding(CTRL+SHIFT+T,
+	ParameterizedCommand(Command(org.eclipse.jdt.ui.navigate.open.type,Open Type,
+		Open a type in a Java editor,
+		Category(org.eclipse.ui.category.navigate,Navigate,null,true),
+		WorkbenchHandlerServiceHandler("org.eclipse.jdt.ui.navigate.open.type"),
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,,system)
+Binding(CTRL+SHIFT+T,
+	ParameterizedCommand(Command(org.eclipse.lsp4e.symbolinworkspace,Go to Symbol in Workspace,
+		,
+		Category(org.eclipse.lsp4e.category,Language Servers,null,true),
+		WorkbenchHandlerServiceHandler("org.eclipse.lsp4e.symbolinworkspace"),
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,,system)
+
+!ENTRY org.eclipse.egit.ui 2 0 2023-10-18 16:01:53.056
+!MESSAGE Warning: The environment variable HOME is not set. The following directory will be used to store the Git
+user global configuration and to define the default location to store repositories: 'C:\Users\Nihir'. If this is
+not correct please set the HOME environment variable and restart Eclipse. Otherwise Git for Windows and
+EGit might behave differently since they see different configuration options.
+This warning can be switched off on the Team > Git > Confirmations and Warnings preference page.
+
+!ENTRY org.eclipse.m2e.core.ui 4 0 2023-10-18 16:06:20.221
+!MESSAGE Failed to create project.
+!STACK 0
+java.util.concurrent.ExecutionException: java.lang.IllegalStateException: Process exit value was 1. Console printout:
+===============================================================
+[INFO] Scanning for projects...
+Downloading from : https://repo.maven.apache.org/maven2/org/apache/maven/plugins/maven-metadata.xml
+Downloading from : https://repo.maven.apache.org/maven2/org/codehaus/mojo/maven-metadata.xml
+Progress (1): 5.1/14 kBProgress (1): 2.8/14 kBProgress (1): 1.4/14 kBProgress (1): 1.4/14 kBProgress (1): 1.4/14 kBProgress (1): 1.4/14 kBProgress (1): 0.7/14 kBProgress (2): 0.7/14 kB | 0.7/21 kBProgress (2): 0.7/14 kB | 1.4/21 kBProgress (2): 0.7/14 kB | 1.4/21 kBProgress (2): 0.7/14 kB | 1.4/21 kBProgress (2): 0.7/14 kB | 1.4/21 kBProgress (2): 0.7/14 kB | 1.4/21 kBProgress (2): 0.7/14 kB | 1.4/21 kBProgress (2): 0.7/14 kB | 1.4/21 kBProgress (2): 0.7/14 kB | 1.4/21 kBProgress (2): 0.7/14 kB | 1.4/21 kBProgress (2): 0.7/14 kB | 1.4/21 kBProgress (2): 0.7/14 kB | 1.0/21 kBProgress (2): 0.7/14 kB | 1.4/21 kBProgress (2): 0.7/14 kB | 1.4/21 kBProgress (2): 0.7/14 kB | 1.4/21 kBProgress (2): 0.7/14 kB | 0.7/21 kB                                   Downloaded from : https://repo.maven.apache.org/maven2/org/apache/maven/plugins/maven-metadata.xml (14 kB at 24 kB/s)
+Downloaded from : https://repo.maven.apache.org/maven2/org/codehaus/mojo/maven-metadata.xml (21 kB at 34 kB/s)
+Downloading from : https://repo.maven.apache.org/maven2/org/apache/maven/plugins/maven-archetype-plugin/maven-metadata.xml
+Progress (1): 980 B                   Downloaded from : https://repo.maven.apache.org/maven2/org/apache/maven/plugins/maven-archetype-plugin/maven-metadata.xml (980 B at 16 kB/s)
+[INFO] 
+[INFO] [1m------------------< [0;36morg.apache.maven:standalone-pom[0;1m >-------------------[m
+[INFO] [1mBuilding Maven Stub Project (No POM) 1[m
+[INFO] [1m--------------------------------[ pom ]---------------------------------[m
+[INFO] 
+[INFO] [1m>>> [0;32marchetype:3.2.1:generate[m [1m(default-cli)[0;1m > [0;1mgenerate-sources[m @ [36mstandalone-pom[0;1m >>>[m
+[INFO] 
+[INFO] [1m<<< [0;32marchetype:3.2.1:generate[m [1m(default-cli)[0;1m < [0;1mgenerate-sources[m @ [36mstandalone-pom[0;1m <<<[m
+[INFO] 
+[INFO] 
+[INFO] [1m--- [0;32marchetype:3.2.1:generate[m [1m(default-cli)[m @ [36mstandalone-pom[0;1m ---[m
+[INFO] Generating project in Interactive mode
+[INFO] Archetype repository not defined. Using the one from [org.apache.maven.archetypes:maven-archetype-quickstart:1.4] found in catalog remote
+[INFO] Using property: groupId = EndtoEnd_sel1
+[INFO] Using property: artifactId = Sel_rahul
+[INFO] Using property: version = 0.0.1-SNAPSHOT
+[INFO] Using property: package = EndtoEnd_sel1.Sel_rahul
+Confirm properties configuration:
+groupId: EndtoEnd_sel1
+artifactId: Sel_rahul
+version: 0.0.1-SNAPSHOT
+package: EndtoEnd_sel1.Sel_rahul
+ Y: : [INFO] ----------------------------------------------------------------------------
+[INFO] Using following parameters for creating project from Archetype: maven-archetype-quickstart:1.4
+[INFO] ----------------------------------------------------------------------------
+[INFO] Parameter: groupId, Value: EndtoEnd_sel1
+[INFO] Parameter: artifactId, Value: Sel_rahul
+[INFO] Parameter: version, Value: 0.0.1-SNAPSHOT
+[INFO] Parameter: package, Value: EndtoEnd_sel1.Sel_rahul
+[INFO] Parameter: packageInPathFormat, Value: EndtoEnd_sel1/Sel_rahul
+[INFO] Parameter: package, Value: EndtoEnd_sel1.Sel_rahul
+[INFO] Parameter: groupId, Value: EndtoEnd_sel1
+[INFO] Parameter: artifactId, Value: Sel_rahul
+[INFO] Parameter: version, Value: 0.0.1-SNAPSHOT
+[INFO] [1m------------------------------------------------------------------------[m
+[INFO] [1;31mBUILD FAILURE[m
+[INFO] [1m------------------------------------------------------------------------[m
+[INFO] Total time:  9.697 s
+[INFO] Finished at: 2023-10-18T16:06:19-05:00
+[INFO] [1m------------------------------------------------------------------------[m
+[ERROR] Failed to execute goal [32morg.apache.maven.plugins:maven-archetype-plugin:3.2.1:generate[m [1m(default-cli)[m on project [36mstandalone-pom[m: [1;31mUnable to add module to the current project as it is not of packaging type 'pom'[m -> [1m[Help 1][m
+[ERROR] 
+[ERROR] To see the full stack trace of the errors, re-run Maven with the [1m-e[m switch.
+[ERROR] Re-run Maven using the [1m-X[m switch to enable full debug logging.
+[ERROR] 
+[ERROR] For more information about the errors and possible solutions, please read the following articles:
+[ERROR] [1m[Help 1][m http://cwiki.apache.org/confluence/display/MAVEN/MojoFailureException
+
+"===============================================================
+	at java.base/java.util.concurrent.CompletableFuture.reportGet(CompletableFuture.java:396)
+	at java.base/java.util.concurrent.CompletableFuture.get(CompletableFuture.java:2073)
+	at org.eclipse.m2e.core.ui.internal.archetype.ArchetypeGenerator.createArchetypeProjects(ArchetypeGenerator.java:164)
+	at org.eclipse.m2e.core.ui.internal.wizards.MavenProjectWizard$3.doCreateMavenProjects(MavenProjectWizard.java:246)
+	at org.eclipse.m2e.core.ui.internal.wizards.AbstractCreateMavenProjectJob$1.doCreateMavenProjects(AbstractCreateMavenProjectJob.java:51)
+	at org.eclipse.m2e.core.ui.internal.wizards.AbstractCreateMavenProjectsOperation.run(AbstractCreateMavenProjectsOperation.java:56)
+	at org.eclipse.m2e.core.ui.internal.wizards.AbstractCreateMavenProjectJob.runInWorkspace(AbstractCreateMavenProjectJob.java:55)
+	at org.eclipse.core.internal.resources.InternalWorkspaceJob.run(InternalWorkspaceJob.java:43)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+Caused by: java.lang.IllegalStateException: Process exit value was 1. Console printout:
+===============================================================
+[INFO] Scanning for projects...
+Downloading from : https://repo.maven.apache.org/maven2/org/apache/maven/plugins/maven-metadata.xml
+Downloading from : https://repo.maven.apache.org/maven2/org/codehaus/mojo/maven-metadata.xml
+Progress (1): 5.1/14 kBProgress (1): 2.8/14 kBProgress (1): 1.4/14 kBProgress (1): 1.4/14 kBProgress (1): 1.4/14 kBProgress (1): 1.4/14 kBProgress (1): 0.7/14 kBProgress (2): 0.7/14 kB | 0.7/21 kBProgress (2): 0.7/14 kB | 1.4/21 kBProgress (2): 0.7/14 kB | 1.4/21 kBProgress (2): 0.7/14 kB | 1.4/21 kBProgress (2): 0.7/14 kB | 1.4/21 kBProgress (2): 0.7/14 kB | 1.4/21 kBProgress (2): 0.7/14 kB | 1.4/21 kBProgress (2): 0.7/14 kB | 1.4/21 kBProgress (2): 0.7/14 kB | 1.4/21 kBProgress (2): 0.7/14 kB | 1.4/21 kBProgress (2): 0.7/14 kB | 1.4/21 kBProgress (2): 0.7/14 kB | 1.0/21 kBProgress (2): 0.7/14 kB | 1.4/21 kBProgress (2): 0.7/14 kB | 1.4/21 kBProgress (2): 0.7/14 kB | 1.4/21 kBProgress (2): 0.7/14 kB | 0.7/21 kB                                   Downloaded from : https://repo.maven.apache.org/maven2/org/apache/maven/plugins/maven-metadata.xml (14 kB at 24 kB/s)
+Downloaded from : https://repo.maven.apache.org/maven2/org/codehaus/mojo/maven-metadata.xml (21 kB at 34 kB/s)
+Downloading from : https://repo.maven.apache.org/maven2/org/apache/maven/plugins/maven-archetype-plugin/maven-metadata.xml
+Progress (1): 980 B                   Downloaded from : https://repo.maven.apache.org/maven2/org/apache/maven/plugins/maven-archetype-plugin/maven-metadata.xml (980 B at 16 kB/s)
+[INFO] 
+[INFO] [1m------------------< [0;36morg.apache.maven:standalone-pom[0;1m >-------------------[m
+[INFO] [1mBuilding Maven Stub Project (No POM) 1[m
+[INFO] [1m--------------------------------[ pom ]---------------------------------[m
+[INFO] 
+[INFO] [1m>>> [0;32marchetype:3.2.1:generate[m [1m(default-cli)[0;1m > [0;1mgenerate-sources[m @ [36mstandalone-pom[0;1m >>>[m
+[INFO] 
+[INFO] [1m<<< [0;32marchetype:3.2.1:generate[m [1m(default-cli)[0;1m < [0;1mgenerate-sources[m @ [36mstandalone-pom[0;1m <<<[m
+[INFO] 
+[INFO] 
+[INFO] [1m--- [0;32marchetype:3.2.1:generate[m [1m(default-cli)[m @ [36mstandalone-pom[0;1m ---[m
+[INFO] Generating project in Interactive mode
+[INFO] Archetype repository not defined. Using the one from [org.apache.maven.archetypes:maven-archetype-quickstart:1.4] found in catalog remote
+[INFO] Using property: groupId = EndtoEnd_sel1
+[INFO] Using property: artifactId = Sel_rahul
+[INFO] Using property: version = 0.0.1-SNAPSHOT
+[INFO] Using property: package = EndtoEnd_sel1.Sel_rahul
+Confirm properties configuration:
+groupId: EndtoEnd_sel1
+artifactId: Sel_rahul
+version: 0.0.1-SNAPSHOT
+package: EndtoEnd_sel1.Sel_rahul
+ Y: : [INFO] ----------------------------------------------------------------------------
+[INFO] Using following parameters for creating project from Archetype: maven-archetype-quickstart:1.4
+[INFO] ----------------------------------------------------------------------------
+[INFO] Parameter: groupId, Value: EndtoEnd_sel1
+[INFO] Parameter: artifactId, Value: Sel_rahul
+[INFO] Parameter: version, Value: 0.0.1-SNAPSHOT
+[INFO] Parameter: package, Value: EndtoEnd_sel1.Sel_rahul
+[INFO] Parameter: packageInPathFormat, Value: EndtoEnd_sel1/Sel_rahul
+[INFO] Parameter: package, Value: EndtoEnd_sel1.Sel_rahul
+[INFO] Parameter: groupId, Value: EndtoEnd_sel1
+[INFO] Parameter: artifactId, Value: Sel_rahul
+[INFO] Parameter: version, Value: 0.0.1-SNAPSHOT
+[INFO] [1m------------------------------------------------------------------------[m
+[INFO] [1;31mBUILD FAILURE[m
+[INFO] [1m------------------------------------------------------------------------[m
+[INFO] Total time:  9.697 s
+[INFO] Finished at: 2023-10-18T16:06:19-05:00
+[INFO] [1m------------------------------------------------------------------------[m
+[ERROR] Failed to execute goal [32morg.apache.maven.plugins:maven-archetype-plugin:3.2.1:generate[m [1m(default-cli)[m on project [36mstandalone-pom[m: [1;31mUnable to add module to the current project as it is not of packaging type 'pom'[m -> [1m[Help 1][m
+[ERROR] 
+[ERROR] To see the full stack trace of the errors, re-run Maven with the [1m-e[m switch.
+[ERROR] Re-run Maven using the [1m-X[m switch to enable full debug logging.
+[ERROR] 
+[ERROR] For more information about the errors and possible solutions, please read the following articles:
+[ERROR] [1m[Help 1][m http://cwiki.apache.org/confluence/display/MAVEN/MojoFailureException
+
+"===============================================================
+	at org.eclipse.m2e.internal.launch.EclipseMavenLauncher$1.lambda$4(EclipseMavenLauncher.java:120)
+	at java.base/java.util.Optional.ifPresent(Optional.java:178)
+	at org.eclipse.m2e.internal.launch.EclipseMavenLauncher$1.launchesTerminated(EclipseMavenLauncher.java:107)
+	at org.eclipse.debug.internal.core.LaunchManager$LaunchesNotifier.run(LaunchManager.java:303)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:45)
+	at org.eclipse.debug.internal.core.LaunchManager$LaunchesNotifier.notify(LaunchManager.java:260)
+	at org.eclipse.debug.internal.core.LaunchManager.fireUpdate(LaunchManager.java:1057)
+	at org.eclipse.debug.core.Launch.fireTerminate(Launch.java:479)
+	at org.eclipse.debug.core.Launch.handleDebugEvents(Launch.java:644)
+	at org.eclipse.debug.core.DebugPlugin$EventNotifier.run(DebugPlugin.java:1225)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:45)
+	at org.eclipse.debug.core.DebugPlugin$EventNotifier.dispatch(DebugPlugin.java:1259)
+	at org.eclipse.debug.core.DebugPlugin$EventDispatchJob.run(DebugPlugin.java:491)
+	... 1 more
+!SESSION 2023-10-18 16:07:49.217 -----------------------------------------------
+eclipse.buildId=4.29.0.20230907-1200
+java.version=21
+java.vendor=Eclipse Adoptium
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=en_US
+Framework arguments:  -product org.eclipse.epp.package.jee.product -product org.eclipse.epp.package.jee.product -product org.eclipse.epp.package.jee.product -product org.eclipse.epp.package.jee.product
+Command-line arguments:  -os win32 -ws win32 -arch x86_64 -product org.eclipse.epp.package.jee.product -product org.eclipse.epp.package.jee.product -product org.eclipse.epp.package.jee.product -data file:/C:/Users/Nihir/eclipse-workspace/rahul_selenium/ -product org.eclipse.epp.package.jee.product
+
+!ENTRY org.eclipse.emf.ecore 2 0 2023-10-18 16:07:52.557
+!MESSAGE Both 'org.eclipse.jst.j2ee.core' and 'org.eclipse.jst.j2ee.core' register a package for 'application.xmi'
+
+!ENTRY org.eclipse.jface 2 0 2023-10-18 16:07:55.893
+!MESSAGE Keybinding conflicts occurred.  They may interfere with normal accelerator operation.
+!SUBENTRY 1 org.eclipse.jface 2 0 2023-10-18 16:07:55.893
+!MESSAGE A conflict occurred for CTRL+SHIFT+T:
+Binding(CTRL+SHIFT+T,
+	ParameterizedCommand(Command(org.eclipse.jdt.ui.navigate.open.type,Open Type,
+		Open a type in a Java editor,
+		Category(org.eclipse.ui.category.navigate,Navigate,null,true),
+		WorkbenchHandlerServiceHandler("org.eclipse.jdt.ui.navigate.open.type"),
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,,system)
+Binding(CTRL+SHIFT+T,
+	ParameterizedCommand(Command(org.eclipse.lsp4e.symbolinworkspace,Go to Symbol in Workspace,
+		,
+		Category(org.eclipse.lsp4e.category,Language Servers,null,true),
+		WorkbenchHandlerServiceHandler("org.eclipse.lsp4e.symbolinworkspace"),
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,,system)
+
+!ENTRY org.eclipse.egit.ui 2 0 2023-10-18 16:07:58.310
+!MESSAGE Warning: The environment variable HOME is not set. The following directory will be used to store the Git
+user global configuration and to define the default location to store repositories: 'C:\Users\Nihir'. If this is
+not correct please set the HOME environment variable and restart Eclipse. Otherwise Git for Windows and
+EGit might behave differently since they see different configuration options.
+This warning can be switched off on the Team > Git > Confirmations and Warnings preference page.
+
+!ENTRY org.eclipse.e4.ui.workbench 2 0 2023-10-18 16:07:58.354
+!MESSAGE Removing PartDescriptorImpl with the "org.eclipse.m2e.core.views.MavenRepositoryView" id and the "Maven Repositories" label.It points to the non available "bundleclass://org.eclipse.ui.workbench/org.eclipse.ui.internal.e4.compatibility.CompatibilityView" class. Bundle might have been uninstalled
+
+!ENTRY org.eclipse.e4.ui.workbench 2 0 2023-10-18 16:07:58.355
+!MESSAGE Removing PartDescriptorImpl with the "org.eclipse.m2e.core.views.MavenLifecycleMappingsView" id and the "Maven Lifecycle Mappings" label.It points to the non available "bundleclass://org.eclipse.ui.workbench/org.eclipse.ui.internal.e4.compatibility.CompatibilityView" class. Bundle might have been uninstalled
+
+!ENTRY org.eclipse.e4.ui.workbench 2 0 2023-10-18 16:07:58.355
+!MESSAGE Removing PartDescriptorImpl with the "org.eclipse.m2e.core.views.MavenBuild" id and the "Maven Workspace Build" label.It points to the non available "bundleclass://org.eclipse.ui.workbench/org.eclipse.ui.internal.e4.compatibility.CompatibilityView" class. Bundle might have been uninstalled
+
+!ENTRY org.eclipse.oomph.setup.ui 1 0 2023-10-18 16:08:25.630
+!MESSAGE Setup tasks were performed during startup. See 'C:\Users\Nihir\eclipse\jee-2023-094\eclipse\configuration\org.eclipse.oomph.setup\setup.log' for details
+!SESSION 2023-10-18 16:09:15.146 -----------------------------------------------
+eclipse.buildId=4.29.0.20230907-1200
+java.version=21
+java.vendor=Eclipse Adoptium
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=en_US
+Framework arguments:  -product org.eclipse.epp.package.jee.product -product org.eclipse.epp.package.jee.product -product org.eclipse.epp.package.jee.product -product org.eclipse.epp.package.jee.product -product org.eclipse.epp.package.jee.product
+Command-line arguments:  -os win32 -ws win32 -arch x86_64 -product org.eclipse.epp.package.jee.product -product org.eclipse.epp.package.jee.product -product org.eclipse.epp.package.jee.product -product org.eclipse.epp.package.jee.product -data file:/C:/Users/Nihir/eclipse-workspace/rahul_selenium/ -product org.eclipse.epp.package.jee.product
+
+!ENTRY org.eclipse.emf.ecore 2 0 2023-10-18 16:09:18.174
+!MESSAGE Both 'org.eclipse.jst.j2ee.core' and 'org.eclipse.jst.j2ee.core' register a package for 'application.xmi'
+
+!ENTRY ch.qos.logback.classic 1 0 2023-10-18 16:09:18.380
+!MESSAGE Activated before the state location was initialized. Retry after the state location is initialized.
+
+!ENTRY ch.qos.logback.classic 1 0 2023-10-18 16:09:20.670
+!MESSAGE Logback config file: C:\Users\Nihir\eclipse-workspace\rahul_selenium\.metadata\.plugins\org.eclipse.m2e.logback\logback.2.2.0.20230625-0847.xml
+
+!ENTRY org.eclipse.jface 2 0 2023-10-18 16:09:21.871
+!MESSAGE Keybinding conflicts occurred.  They may interfere with normal accelerator operation.
+!SUBENTRY 1 org.eclipse.jface 2 0 2023-10-18 16:09:21.871
+!MESSAGE A conflict occurred for CTRL+SHIFT+T:
+Binding(CTRL+SHIFT+T,
+	ParameterizedCommand(Command(org.eclipse.jdt.ui.navigate.open.type,Open Type,
+		Open a type in a Java editor,
+		Category(org.eclipse.ui.category.navigate,Navigate,null,true),
+		WorkbenchHandlerServiceHandler("org.eclipse.jdt.ui.navigate.open.type"),
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,,system)
+Binding(CTRL+SHIFT+T,
+	ParameterizedCommand(Command(org.eclipse.lsp4e.symbolinworkspace,Go to Symbol in Workspace,
+		,
+		Category(org.eclipse.lsp4e.category,Language Servers,null,true),
+		WorkbenchHandlerServiceHandler("org.eclipse.lsp4e.symbolinworkspace"),
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,,system)
+
+!ENTRY org.eclipse.egit.ui 2 0 2023-10-18 16:09:25.891
+!MESSAGE Warning: The environment variable HOME is not set. The following directory will be used to store the Git
+user global configuration and to define the default location to store repositories: 'C:\Users\Nihir'. If this is
+not correct please set the HOME environment variable and restart Eclipse. Otherwise Git for Windows and
+EGit might behave differently since they see different configuration options.
+This warning can be switched off on the Team > Git > Confirmations and Warnings preference page.
+
+!ENTRY org.eclipse.m2e.core.ui 4 0 2023-10-18 16:10:27.000
+!MESSAGE Failed to create project.
+!STACK 0
+java.util.concurrent.ExecutionException: java.lang.IllegalStateException: Process exit value was 1. Console printout:
+===============================================================
+[INFO] Scanning for projects...
+Downloading from : https://repo.maven.apache.org/maven2/org/apache/maven/plugins/maven-metadata.xml
+Downloading from : https://repo.maven.apache.org/maven2/org/codehaus/mojo/maven-metadata.xml
+Progress (1): 5.6/21 kBProgress (1): 2.8/21 kBProgress (1): 1.4/21 kBProgress (1): 1.4/21 kBProgress (1): 1.4/21 kBProgress (1): 1.4/21 kBProgress (1): 1.4/21 kBProgress (1): 0.9/21 kBProgress (1): 0.5/21 kBProgress (1): 1.4/21 kBProgress (1): 1.4/21 kBProgress (1): 0.9/21 kBProgress (2): 0.9/21 kB | 1.2/14 kBProgress (2): 0.9/21 kB | 1.4/14 kBProgress (2): 0.9/21 kB | 1.4/14 kBProgress (2): 0.9/21 kB | 2.8/14 kBProgress (2): 0.9/21 kB | 1.4/14 kBProgress (2): 0.9/21 kB | 1.4/14 kBProgress (2): 0.9/21 kB | 2.8/14 kBProgress (2): 0.9/21 kB | 1.4/14 kBProgress (2): 0.9/21 kB | 0.4/14 kB                                   Downloaded from : https://repo.maven.apache.org/maven2/org/codehaus/mojo/maven-metadata.xml (21 kB at 26 kB/s)
+Downloaded from : https://repo.maven.apache.org/maven2/org/apache/maven/plugins/maven-metadata.xml (14 kB at 18 kB/s)
+Downloading from : https://repo.maven.apache.org/maven2/org/apache/maven/plugins/maven-archetype-plugin/maven-metadata.xml
+Progress (1): 980 B                   Downloaded from : https://repo.maven.apache.org/maven2/org/apache/maven/plugins/maven-archetype-plugin/maven-metadata.xml (980 B at 18 kB/s)
+[INFO] 
+[INFO] [1m------------------< [0;36morg.apache.maven:standalone-pom[0;1m >-------------------[m
+[INFO] [1mBuilding Maven Stub Project (No POM) 1[m
+[INFO] [1m--------------------------------[ pom ]---------------------------------[m
+[INFO] 
+[INFO] [1m>>> [0;32marchetype:3.2.1:generate[m [1m(default-cli)[0;1m > [0;1mgenerate-sources[m @ [36mstandalone-pom[0;1m >>>[m
+[INFO] 
+[INFO] [1m<<< [0;32marchetype:3.2.1:generate[m [1m(default-cli)[0;1m < [0;1mgenerate-sources[m @ [36mstandalone-pom[0;1m <<<[m
+[INFO] 
+[INFO] 
+[INFO] [1m--- [0;32marchetype:3.2.1:generate[m [1m(default-cli)[m @ [36mstandalone-pom[0;1m ---[m
+[INFO] Generating project in Interactive mode
+[INFO] Archetype repository not defined. Using the one from [org.apache.maven.archetypes:maven-archetype-quickstart:1.4] found in catalog remote
+[INFO] Using property: groupId = EndtoEnd_sel1
+[INFO] Using property: artifactId = hhhh
+[INFO] Using property: version = 0.0.1-SNAPSHOT
+[INFO] Using property: package = EndtoEnd_sel1.hhhh
+Confirm properties configuration:
+groupId: EndtoEnd_sel1
+artifactId: hhhh
+version: 0.0.1-SNAPSHOT
+package: EndtoEnd_sel1.hhhh
+ Y: : [INFO] ----------------------------------------------------------------------------
+[INFO] Using following parameters for creating project from Archetype: maven-archetype-quickstart:1.4
+[INFO] ----------------------------------------------------------------------------
+[INFO] Parameter: groupId, Value: EndtoEnd_sel1
+[INFO] Parameter: artifactId, Value: hhhh
+[INFO] Parameter: version, Value: 0.0.1-SNAPSHOT
+[INFO] Parameter: package, Value: EndtoEnd_sel1.hhhh
+[INFO] Parameter: packageInPathFormat, Value: EndtoEnd_sel1/hhhh
+[INFO] Parameter: package, Value: EndtoEnd_sel1.hhhh
+[INFO] Parameter: groupId, Value: EndtoEnd_sel1
+[INFO] Parameter: artifactId, Value: hhhh
+[INFO] Parameter: version, Value: 0.0.1-SNAPSHOT
+[INFO] [1m------------------------------------------------------------------------[m
+[INFO] [1;31mBUILD FAILURE[m
+[INFO] [1m------------------------------------------------------------------------[m
+[INFO] Total time:  16.157 s
+[INFO] Finished at: 2023-10-18T16:10:26-05:00
+[INFO] [1m------------------------------------------------------------------------[m
+[ERROR] Failed to execute goal [32morg.apache.maven.plugins:maven-archetype-plugin:3.2.1:generate[m [1m(default-cli)[m on project [36mstandalone-pom[m: [1;31mUnable to add module to the current project as it is not of packaging type 'pom'[m -> [1m[Help 1][m
+[ERROR] 
+[ERROR] To see the full stack trace of the errors, re-run Maven with the [1m-e[m switch.
+[ERROR] Re-run Maven using the [1m-X[m switch to enable full debug logging.
+[ERROR] 
+[ERROR] For more information about the errors and possible solutions, please read the following articles:
+[ERROR] [1m[Help 1][m http://cwiki.apache.org/confluence/display/MAVEN/MojoFailureException
+
+"===============================================================
+	at java.base/java.util.concurrent.CompletableFuture.reportGet(CompletableFuture.java:396)
+	at java.base/java.util.concurrent.CompletableFuture.get(CompletableFuture.java:2073)
+	at org.eclipse.m2e.core.ui.internal.archetype.ArchetypeGenerator.createArchetypeProjects(ArchetypeGenerator.java:164)
+	at org.eclipse.m2e.core.ui.internal.wizards.MavenProjectWizard$3.doCreateMavenProjects(MavenProjectWizard.java:246)
+	at org.eclipse.m2e.core.ui.internal.wizards.AbstractCreateMavenProjectJob$1.doCreateMavenProjects(AbstractCreateMavenProjectJob.java:51)
+	at org.eclipse.m2e.core.ui.internal.wizards.AbstractCreateMavenProjectsOperation.run(AbstractCreateMavenProjectsOperation.java:56)
+	at org.eclipse.m2e.core.ui.internal.wizards.AbstractCreateMavenProjectJob.runInWorkspace(AbstractCreateMavenProjectJob.java:55)
+	at org.eclipse.core.internal.resources.InternalWorkspaceJob.run(InternalWorkspaceJob.java:43)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+Caused by: java.lang.IllegalStateException: Process exit value was 1. Console printout:
+===============================================================
+[INFO] Scanning for projects...
+Downloading from : https://repo.maven.apache.org/maven2/org/apache/maven/plugins/maven-metadata.xml
+Downloading from : https://repo.maven.apache.org/maven2/org/codehaus/mojo/maven-metadata.xml
+Progress (1): 5.6/21 kBProgress (1): 2.8/21 kBProgress (1): 1.4/21 kBProgress (1): 1.4/21 kBProgress (1): 1.4/21 kBProgress (1): 1.4/21 kBProgress (1): 1.4/21 kBProgress (1): 0.9/21 kBProgress (1): 0.5/21 kBProgress (1): 1.4/21 kBProgress (1): 1.4/21 kBProgress (1): 0.9/21 kBProgress (2): 0.9/21 kB | 1.2/14 kBProgress (2): 0.9/21 kB | 1.4/14 kBProgress (2): 0.9/21 kB | 1.4/14 kBProgress (2): 0.9/21 kB | 2.8/14 kBProgress (2): 0.9/21 kB | 1.4/14 kBProgress (2): 0.9/21 kB | 1.4/14 kBProgress (2): 0.9/21 kB | 2.8/14 kBProgress (2): 0.9/21 kB | 1.4/14 kBProgress (2): 0.9/21 kB | 0.4/14 kB                                   Downloaded from : https://repo.maven.apache.org/maven2/org/codehaus/mojo/maven-metadata.xml (21 kB at 26 kB/s)
+Downloaded from : https://repo.maven.apache.org/maven2/org/apache/maven/plugins/maven-metadata.xml (14 kB at 18 kB/s)
+Downloading from : https://repo.maven.apache.org/maven2/org/apache/maven/plugins/maven-archetype-plugin/maven-metadata.xml
+Progress (1): 980 B                   Downloaded from : https://repo.maven.apache.org/maven2/org/apache/maven/plugins/maven-archetype-plugin/maven-metadata.xml (980 B at 18 kB/s)
+[INFO] 
+[INFO] [1m------------------< [0;36morg.apache.maven:standalone-pom[0;1m >-------------------[m
+[INFO] [1mBuilding Maven Stub Project (No POM) 1[m
+[INFO] [1m--------------------------------[ pom ]---------------------------------[m
+[INFO] 
+[INFO] [1m>>> [0;32marchetype:3.2.1:generate[m [1m(default-cli)[0;1m > [0;1mgenerate-sources[m @ [36mstandalone-pom[0;1m >>>[m
+[INFO] 
+[INFO] [1m<<< [0;32marchetype:3.2.1:generate[m [1m(default-cli)[0;1m < [0;1mgenerate-sources[m @ [36mstandalone-pom[0;1m <<<[m
+[INFO] 
+[INFO] 
+[INFO] [1m--- [0;32marchetype:3.2.1:generate[m [1m(default-cli)[m @ [36mstandalone-pom[0;1m ---[m
+[INFO] Generating project in Interactive mode
+[INFO] Archetype repository not defined. Using the one from [org.apache.maven.archetypes:maven-archetype-quickstart:1.4] found in catalog remote
+[INFO] Using property: groupId = EndtoEnd_sel1
+[INFO] Using property: artifactId = hhhh
+[INFO] Using property: version = 0.0.1-SNAPSHOT
+[INFO] Using property: package = EndtoEnd_sel1.hhhh
+Confirm properties configuration:
+groupId: EndtoEnd_sel1
+artifactId: hhhh
+version: 0.0.1-SNAPSHOT
+package: EndtoEnd_sel1.hhhh
+ Y: : [INFO] ----------------------------------------------------------------------------
+[INFO] Using following parameters for creating project from Archetype: maven-archetype-quickstart:1.4
+[INFO] ----------------------------------------------------------------------------
+[INFO] Parameter: groupId, Value: EndtoEnd_sel1
+[INFO] Parameter: artifactId, Value: hhhh
+[INFO] Parameter: version, Value: 0.0.1-SNAPSHOT
+[INFO] Parameter: package, Value: EndtoEnd_sel1.hhhh
+[INFO] Parameter: packageInPathFormat, Value: EndtoEnd_sel1/hhhh
+[INFO] Parameter: package, Value: EndtoEnd_sel1.hhhh
+[INFO] Parameter: groupId, Value: EndtoEnd_sel1
+[INFO] Parameter: artifactId, Value: hhhh
+[INFO] Parameter: version, Value: 0.0.1-SNAPSHOT
+[INFO] [1m------------------------------------------------------------------------[m
+[INFO] [1;31mBUILD FAILURE[m
+[INFO] [1m------------------------------------------------------------------------[m
+[INFO] Total time:  16.157 s
+[INFO] Finished at: 2023-10-18T16:10:26-05:00
+[INFO] [1m------------------------------------------------------------------------[m
+[ERROR] Failed to execute goal [32morg.apache.maven.plugins:maven-archetype-plugin:3.2.1:generate[m [1m(default-cli)[m on project [36mstandalone-pom[m: [1;31mUnable to add module to the current project as it is not of packaging type 'pom'[m -> [1m[Help 1][m
+[ERROR] 
+[ERROR] To see the full stack trace of the errors, re-run Maven with the [1m-e[m switch.
+[ERROR] Re-run Maven using the [1m-X[m switch to enable full debug logging.
+[ERROR] 
+[ERROR] For more information about the errors and possible solutions, please read the following articles:
+[ERROR] [1m[Help 1][m http://cwiki.apache.org/confluence/display/MAVEN/MojoFailureException
+
+"===============================================================
+	at org.eclipse.m2e.internal.launch.EclipseMavenLauncher$1.lambda$4(EclipseMavenLauncher.java:120)
+	at java.base/java.util.Optional.ifPresent(Optional.java:178)
+	at org.eclipse.m2e.internal.launch.EclipseMavenLauncher$1.launchesTerminated(EclipseMavenLauncher.java:107)
+	at org.eclipse.debug.internal.core.LaunchManager$LaunchesNotifier.run(LaunchManager.java:303)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:45)
+	at org.eclipse.debug.internal.core.LaunchManager$LaunchesNotifier.notify(LaunchManager.java:260)
+	at org.eclipse.debug.internal.core.LaunchManager.fireUpdate(LaunchManager.java:1057)
+	at org.eclipse.debug.core.Launch.fireTerminate(Launch.java:479)
+	at org.eclipse.debug.core.Launch.handleDebugEvents(Launch.java:644)
+	at org.eclipse.debug.core.DebugPlugin$EventNotifier.run(DebugPlugin.java:1225)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:45)
+	at org.eclipse.debug.core.DebugPlugin$EventNotifier.dispatch(DebugPlugin.java:1259)
+	at org.eclipse.debug.core.DebugPlugin$EventDispatchJob.run(DebugPlugin.java:491)
+	... 1 more
+
+!ENTRY org.eclipse.equinox.preferences 4 4 2023-10-18 16:16:33.230
+!MESSAGE Exception saving preferences to: C:/Users/Nihir/.p2/org.eclipse.equinox.p2.engine/profileRegistry/C__Users_Nihir_eclipse_jee-2023-094_eclipse.profile/.data/.settings/org.eclipse.equinox.p2.metadata.repository.prefs.
+!STACK 0
+java.nio.file.NoSuchFileException: C:\Users\Nihir\.p2\org.eclipse.equinox.p2.engine\profileRegistry\C__Users_Nihir_eclipse_jee-2023-094_eclipse.profile\.data\.settings\org.eclipse.equinox.p2.metadata.repository.prefs
+	at java.base/sun.nio.fs.WindowsException.translateToIOException(WindowsException.java:85)
+	at java.base/sun.nio.fs.WindowsException.rethrowAsIOException(WindowsException.java:103)
+	at java.base/sun.nio.fs.WindowsException.rethrowAsIOException(WindowsException.java:108)
+	at java.base/sun.nio.fs.WindowsFileCopy.move(WindowsFileCopy.java:403)
+	at java.base/sun.nio.fs.WindowsFileSystemProvider.move(WindowsFileSystemProvider.java:291)
+	at java.base/java.nio.file.Files.move(Files.java:1430)
+	at org.eclipse.core.internal.preferences.EclipsePreferences.write(EclipsePreferences.java:292)
+	at org.eclipse.core.internal.preferences.EclipsePreferences.save(EclipsePreferences.java:1066)
+	at org.eclipse.equinox.internal.p2.engine.ProfilePreferences.doSave(ProfilePreferences.java:141)
+	at org.eclipse.equinox.internal.p2.engine.ProfilePreferences$SaveJob.run(ProfilePreferences.java:54)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+
+!ENTRY org.eclipse.equinox.p2.engine 2 0 2023-10-18 16:16:33.232
+!MESSAGE Exception saving profile preferences
+!STACK 0
+org.osgi.service.prefs.BackingStoreException: Exception saving preferences to: C:/Users/Nihir/.p2/org.eclipse.equinox.p2.engine/profileRegistry/C__Users_Nihir_eclipse_jee-2023-094_eclipse.profile/.data/.settings/org.eclipse.equinox.p2.metadata.repository.prefs.
+	at org.eclipse.core.internal.preferences.EclipsePreferences.write(EclipsePreferences.java:300)
+	at org.eclipse.core.internal.preferences.EclipsePreferences.save(EclipsePreferences.java:1066)
+	at org.eclipse.equinox.internal.p2.engine.ProfilePreferences.doSave(ProfilePreferences.java:141)
+	at org.eclipse.equinox.internal.p2.engine.ProfilePreferences$SaveJob.run(ProfilePreferences.java:54)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+Caused by: java.nio.file.NoSuchFileException: C:\Users\Nihir\.p2\org.eclipse.equinox.p2.engine\profileRegistry\C__Users_Nihir_eclipse_jee-2023-094_eclipse.profile\.data\.settings\org.eclipse.equinox.p2.metadata.repository.prefs
+	at java.base/sun.nio.fs.WindowsException.translateToIOException(WindowsException.java:85)
+	at java.base/sun.nio.fs.WindowsException.rethrowAsIOException(WindowsException.java:103)
+	at java.base/sun.nio.fs.WindowsException.rethrowAsIOException(WindowsException.java:108)
+	at java.base/sun.nio.fs.WindowsFileCopy.move(WindowsFileCopy.java:403)
+	at java.base/sun.nio.fs.WindowsFileSystemProvider.move(WindowsFileSystemProvider.java:291)
+	at java.base/java.nio.file.Files.move(Files.java:1430)
+	at org.eclipse.core.internal.preferences.EclipsePreferences.write(EclipsePreferences.java:292)
+	... 4 more
+
+!ENTRY org.eclipse.equinox.preferences 4 4 2023-10-18 16:16:33.234
+!MESSAGE Exception saving preferences to: C:/Users/Nihir/.p2/org.eclipse.equinox.p2.engine/profileRegistry/C__Users_Nihir_eclipse_jee-2023-094_eclipse.profile/.data/.settings/org.eclipse.equinox.p2.artifact.repository.prefs.
+!STACK 0
+java.nio.file.NoSuchFileException: C:\Users\Nihir\.p2\org.eclipse.equinox.p2.engine\profileRegistry\C__Users_Nihir_eclipse_jee-2023-094_eclipse.profile\.data\.settings\org.eclipse.equinox.p2.artifact.repository.prefs
+	at java.base/sun.nio.fs.WindowsException.translateToIOException(WindowsException.java:85)
+	at java.base/sun.nio.fs.WindowsException.rethrowAsIOException(WindowsException.java:103)
+	at java.base/sun.nio.fs.WindowsException.rethrowAsIOException(WindowsException.java:108)
+	at java.base/sun.nio.fs.WindowsFileCopy.move(WindowsFileCopy.java:403)
+	at java.base/sun.nio.fs.WindowsFileSystemProvider.move(WindowsFileSystemProvider.java:291)
+	at java.base/java.nio.file.Files.move(Files.java:1430)
+	at org.eclipse.core.internal.preferences.EclipsePreferences.write(EclipsePreferences.java:292)
+	at org.eclipse.core.internal.preferences.EclipsePreferences.save(EclipsePreferences.java:1066)
+	at org.eclipse.equinox.internal.p2.engine.ProfilePreferences.doSave(ProfilePreferences.java:141)
+	at org.eclipse.equinox.internal.p2.engine.ProfilePreferences$SaveJob.run(ProfilePreferences.java:54)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+
+!ENTRY org.eclipse.equinox.p2.engine 2 0 2023-10-18 16:16:33.235
+!MESSAGE Exception saving profile preferences
+!STACK 0
+org.osgi.service.prefs.BackingStoreException: Exception saving preferences to: C:/Users/Nihir/.p2/org.eclipse.equinox.p2.engine/profileRegistry/C__Users_Nihir_eclipse_jee-2023-094_eclipse.profile/.data/.settings/org.eclipse.equinox.p2.artifact.repository.prefs.
+	at org.eclipse.core.internal.preferences.EclipsePreferences.write(EclipsePreferences.java:300)
+	at org.eclipse.core.internal.preferences.EclipsePreferences.save(EclipsePreferences.java:1066)
+	at org.eclipse.equinox.internal.p2.engine.ProfilePreferences.doSave(ProfilePreferences.java:141)
+	at org.eclipse.equinox.internal.p2.engine.ProfilePreferences$SaveJob.run(ProfilePreferences.java:54)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+Caused by: java.nio.file.NoSuchFileException: C:\Users\Nihir\.p2\org.eclipse.equinox.p2.engine\profileRegistry\C__Users_Nihir_eclipse_jee-2023-094_eclipse.profile\.data\.settings\org.eclipse.equinox.p2.artifact.repository.prefs
+	at java.base/sun.nio.fs.WindowsException.translateToIOException(WindowsException.java:85)
+	at java.base/sun.nio.fs.WindowsException.rethrowAsIOException(WindowsException.java:103)
+	at java.base/sun.nio.fs.WindowsException.rethrowAsIOException(WindowsException.java:108)
+	at java.base/sun.nio.fs.WindowsFileCopy.move(WindowsFileCopy.java:403)
+	at java.base/sun.nio.fs.WindowsFileSystemProvider.move(WindowsFileSystemProvider.java:291)
+	at java.base/java.nio.file.Files.move(Files.java:1430)
+	at org.eclipse.core.internal.preferences.EclipsePreferences.write(EclipsePreferences.java:292)
+	... 4 more
+
+!ENTRY org.eclipse.equinox.p2.touchpoint.natives 2 0 2023-10-18 16:16:33.424
+!MESSAGE Could not remove temporary backup directory (it is safe to manually delete it and its contents): C:\Users\Nihir\AppData\Local\Temp\C__Users_Nihir_eclipse_jee-2023-094_eclipse_161919d0-5128-4be3-8635-082918bc4230
+!SESSION 2024-07-23 14:26:41.681 -----------------------------------------------
+eclipse.buildId=4.32.0.20240606-1231
+java.version=22.0.1
+java.vendor=Oracle Corporation
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=en_US
+Framework arguments:  -product org.eclipse.epp.package.jee.product
+Command-line arguments:  -os win32 -ws win32 -arch x86_64 -product org.eclipse.epp.package.jee.product -data C:\Users\Nihir\eclipse-workspace\rahul_selenium
+
+!ENTRY ch.qos.logback.classic 1 0 2024-07-23 14:26:45.825
+!MESSAGE Activated before the state location was initialized. Retry after the state location is initialized.
+
+!ENTRY org.apache.felix.scr 4 0 2024-07-23 14:39:47.736
+!MESSAGE bundle org.apache.felix.scr:2.2.10 (91) Circular reference detected trying to get service {org.eclipse.m2e.core.project.IMavenProjectChangedListener}={service.id=274, service.bundleid=1043, service.scope=bundle, osgi.ds.satisfying.condition.target=(osgi.condition.id=true), component.name=org.eclipse.m2e.core.internal.project.WorkspaceStateWriter, component.id=38}
+ stack of references: ServiceReference: {org.eclipse.m2e.core.project.IMavenProjectChangedListener}={service.id=274, service.bundleid=1043, service.scope=bundle, osgi.ds.satisfying.condition.target=(osgi.condition.id=true), component.name=org.eclipse.m2e.core.internal.project.WorkspaceStateWriter, component.id=38}
+ServiceReference: {org.eclipse.m2e.core.project.IMavenProjectRegistry}={service.id=267, service.bundleid=1043, service.scope=bundle, osgi.ds.satisfying.condition.target=(osgi.condition.id=true), component.name=org.eclipse.m2e.core.internal.project.registry.MavenProjectManager, component.id=41}
+    Dependency: DependencyManager: Component [Component: org.eclipse.m2e.core.embedder.MavenModelManager (26)] reference [projectManager]
+
+!STACK 0
+java.lang.Exception: stack trace
+	at org.apache.felix.scr.impl.ComponentRegistry.enterCreate(ComponentRegistry.java:493)
+	at org.apache.felix.scr.impl.BundleComponentActivator.enterCreate(BundleComponentActivator.java:722)
+	at org.apache.felix.scr.impl.manager.SingleComponentManager.getService(SingleComponentManager.java:901)
+	at org.eclipse.osgi.internal.serviceregistry.ServiceFactoryUse$1.run(ServiceFactoryUse.java:226)
+	at java.base/java.security.AccessController.doPrivileged(AccessController.java:319)
+	at org.eclipse.osgi.internal.serviceregistry.ServiceFactoryUse.factoryGetService(ServiceFactoryUse.java:223)
+	at org.eclipse.osgi.internal.serviceregistry.ServiceFactoryUse.getService(ServiceFactoryUse.java:118)
+	at org.eclipse.osgi.internal.serviceregistry.ServiceConsumer$2.getService(ServiceConsumer.java:48)
+	at org.eclipse.osgi.internal.serviceregistry.ServiceRegistrationImpl.getService(ServiceRegistrationImpl.java:580)
+	at org.eclipse.osgi.internal.serviceregistry.ServiceRegistry.getService(ServiceRegistry.java:548)
+	at org.eclipse.osgi.internal.framework.BundleContextImpl.getService(BundleContextImpl.java:672)
+	at org.apache.felix.scr.impl.manager.SingleRefPair.getServiceObject(SingleRefPair.java:88)
+	at org.apache.felix.scr.impl.inject.methods.BindMethod.getServiceObject(BindMethod.java:675)
+	at org.apache.felix.scr.impl.manager.DependencyManager.getServiceObject(DependencyManager.java:2625)
+	at org.apache.felix.scr.impl.manager.DependencyManager$MultipleDynamicCustomizer.prebind(DependencyManager.java:441)
+	at org.apache.felix.scr.impl.manager.DependencyManager.prebind(DependencyManager.java:1843)
+	at org.apache.felix.scr.impl.manager.AbstractComponentManager.collectDependencies(AbstractComponentManager.java:1060)
+	at org.apache.felix.scr.impl.manager.SingleComponentManager.getServiceInternal(SingleComponentManager.java:955)
+	at org.apache.felix.scr.impl.manager.SingleComponentManager.getService(SingleComponentManager.java:920)
+	at org.eclipse.osgi.internal.serviceregistry.ServiceFactoryUse$1.run(ServiceFactoryUse.java:226)
+	at java.base/java.security.AccessController.doPrivileged(AccessController.java:319)
+	at org.eclipse.osgi.internal.serviceregistry.ServiceFactoryUse.factoryGetService(ServiceFactoryUse.java:223)
+	at org.eclipse.osgi.internal.serviceregistry.ServiceFactoryUse.getService(ServiceFactoryUse.java:118)
+	at org.eclipse.osgi.internal.serviceregistry.ServiceConsumer$2.getService(ServiceConsumer.java:48)
+	at org.eclipse.osgi.internal.serviceregistry.ServiceRegistrationImpl.getService(ServiceRegistrationImpl.java:580)
+	at org.eclipse.osgi.internal.serviceregistry.ServiceRegistry.getService(ServiceRegistry.java:548)
+	at org.eclipse.osgi.internal.framework.BundleContextImpl.getService(BundleContextImpl.java:672)
+	at org.apache.felix.scr.impl.manager.SingleRefPair.getServiceObject(SingleRefPair.java:88)
+	at org.apache.felix.scr.impl.inject.field.FieldHandler$ReferenceMethodImpl.getServiceObject(FieldHandler.java:552)
+	at org.apache.felix.scr.impl.manager.DependencyManager.getServiceObject(DependencyManager.java:2625)
+	at org.apache.felix.scr.impl.manager.DependencyManager$SingleStaticCustomizer.prebind(DependencyManager.java:1414)
+	at org.apache.felix.scr.impl.manager.DependencyManager.prebind(DependencyManager.java:1843)
+	at org.apache.felix.scr.impl.manager.AbstractComponentManager.collectDependencies(AbstractComponentManager.java:1060)
+	at org.apache.felix.scr.impl.manager.SingleComponentManager.getServiceInternal(SingleComponentManager.java:955)
+	at org.apache.felix.scr.impl.manager.AbstractComponentManager.activateInternal(AbstractComponentManager.java:776)
+	at org.apache.felix.scr.impl.manager.DependencyManager$SingleStaticCustomizer.addedService(DependencyManager.java:1287)
+	at org.apache.felix.scr.impl.manager.DependencyManager$SingleStaticCustomizer.addedService(DependencyManager.java:1238)
+	at org.apache.felix.scr.impl.manager.ServiceTracker$Tracked.customizerAdded(ServiceTracker.java:1232)
+	at org.apache.felix.scr.impl.manager.ServiceTracker$Tracked.customizerAdded(ServiceTracker.java:1152)
+	at org.apache.felix.scr.impl.manager.ServiceTracker$AbstractTracked.trackAdding(ServiceTracker.java:959)
+	at org.apache.felix.scr.impl.manager.ServiceTracker$AbstractTracked.track(ServiceTracker.java:895)
+	at org.apache.felix.scr.impl.manager.ServiceTracker$Tracked.serviceChanged(ServiceTracker.java:1184)
+	at org.apache.felix.scr.impl.BundleComponentActivator$ListenerInfo.serviceChanged(BundleComponentActivator.java:116)
+	at org.eclipse.osgi.internal.serviceregistry.FilteredServiceListener.serviceChanged(FilteredServiceListener.java:133)
+	at org.eclipse.osgi.internal.framework.BundleContextImpl.dispatchEvent(BundleContextImpl.java:995)
+	at org.eclipse.osgi.framework.eventmgr.EventManager.dispatchEvent(EventManager.java:230)
+	at org.eclipse.osgi.framework.eventmgr.ListenerQueue.dispatchEventSynchronous(ListenerQueue.java:151)
+	at org.eclipse.osgi.internal.serviceregistry.ServiceRegistry.publishServiceEventPrivileged(ServiceRegistry.java:956)
+	at org.eclipse.osgi.internal.serviceregistry.ServiceRegistry.publishServiceEvent(ServiceRegistry.java:890)
+	at org.eclipse.osgi.internal.serviceregistry.ServiceRegistrationImpl.register(ServiceRegistrationImpl.java:145)
+	at org.eclipse.osgi.internal.serviceregistry.ServiceRegistry.registerService(ServiceRegistry.java:274)
+	at org.eclipse.osgi.internal.framework.BundleContextImpl.registerService(BundleContextImpl.java:501)
+	at org.apache.felix.scr.impl.manager.AbstractComponentManager$3.register(AbstractComponentManager.java:929)
+	at org.apache.felix.scr.impl.manager.AbstractComponentManager$3.register(AbstractComponentManager.java:915)
+	at org.apache.felix.scr.impl.manager.RegistrationManager.changeRegistration(RegistrationManager.java:133)
+	at org.apache.felix.scr.impl.manager.AbstractComponentManager.registerService(AbstractComponentManager.java:984)
+	at org.apache.felix.scr.impl.manager.AbstractComponentManager.activateInternal(AbstractComponentManager.java:752)
+	at org.apache.felix.scr.impl.manager.DependencyManager$SingleStaticCustomizer.addedService(DependencyManager.java:1287)
+	at org.apache.felix.scr.impl.manager.DependencyManager$SingleStaticCustomizer.addedService(DependencyManager.java:1238)
+	at org.apache.felix.scr.impl.manager.ServiceTracker$Tracked.customizerAdded(ServiceTracker.java:1232)
+	at org.apache.felix.scr.impl.manager.ServiceTracker$Tracked.customizerAdded(ServiceTracker.java:1152)
+	at org.apache.felix.scr.impl.manager.ServiceTracker$AbstractTracked.trackAdding(ServiceTracker.java:959)
+	at org.apache.felix.scr.impl.manager.ServiceTracker$AbstractTracked.track(ServiceTracker.java:895)
+	at org.apache.felix.scr.impl.manager.ServiceTracker$Tracked.serviceChanged(ServiceTracker.java:1184)
+	at org.apache.felix.scr.impl.BundleComponentActivator$ListenerInfo.serviceChanged(BundleComponentActivator.java:116)
+	at org.eclipse.osgi.internal.serviceregistry.FilteredServiceListener.serviceChanged(FilteredServiceListener.java:133)
+	at org.eclipse.osgi.internal.framework.BundleContextImpl.dispatchEvent(BundleContextImpl.java:995)
+	at org.eclipse.osgi.framework.eventmgr.EventManager.dispatchEvent(EventManager.java:230)
+	at org.eclipse.osgi.framework.eventmgr.ListenerQueue.dispatchEventSynchronous(ListenerQueue.java:151)
+	at org.eclipse.osgi.internal.serviceregistry.ServiceRegistry.publishServiceEventPrivileged(ServiceRegistry.java:956)
+	at org.eclipse.osgi.internal.serviceregistry.ServiceRegistry.publishServiceEvent(ServiceRegistry.java:890)
+	at org.eclipse.osgi.internal.serviceregistry.ServiceRegistrationImpl.register(ServiceRegistrationImpl.java:145)
+	at org.eclipse.osgi.internal.serviceregistry.ServiceRegistry.registerService(ServiceRegistry.java:274)
+	at org.eclipse.osgi.internal.framework.BundleContextImpl.registerService(BundleContextImpl.java:501)
+	at org.eclipse.osgi.internal.framework.BundleContextImpl.registerService(BundleContextImpl.java:521)
+	at org.eclipse.osgi.internal.framework.BundleContextImpl.registerService(BundleContextImpl.java:1080)
+	at org.eclipse.core.resources.ResourcesPlugin$WorkspaceInitCustomizer.addingService(ResourcesPlugin.java:574)
+	at org.eclipse.core.resources.ResourcesPlugin$WorkspaceInitCustomizer.addingService(ResourcesPlugin.java:1)
+	at org.osgi.util.tracker.ServiceTracker$Tracked.customizerAdding(ServiceTracker.java:947)
+	at org.osgi.util.tracker.ServiceTracker$Tracked.customizerAdding(ServiceTracker.java:1)
+	at org.osgi.util.tracker.AbstractTracked.trackAdding(AbstractTracked.java:257)
+	at org.osgi.util.tracker.AbstractTracked.trackInitial(AbstractTracked.java:184)
+	at org.osgi.util.tracker.ServiceTracker.open(ServiceTracker.java:324)
+	at org.osgi.util.tracker.ServiceTracker.open(ServiceTracker.java:267)
+	at org.eclipse.core.resources.ResourcesPlugin.start(ResourcesPlugin.java:545)
+	at org.eclipse.osgi.internal.framework.BundleContextImpl$2.run(BundleContextImpl.java:833)
+	at org.eclipse.osgi.internal.framework.BundleContextImpl$2.run(BundleContextImpl.java:1)
+	at java.base/java.security.AccessController.doPrivileged(AccessController.java:571)
+	at org.eclipse.osgi.internal.framework.BundleContextImpl.startActivator(BundleContextImpl.java:825)
+	at org.eclipse.osgi.internal.framework.BundleContextImpl.start(BundleContextImpl.java:775)
+	at org.eclipse.osgi.internal.framework.EquinoxBundle.startWorker0(EquinoxBundle.java:1057)
+	at org.eclipse.osgi.internal.framework.EquinoxBundle$EquinoxModule.startWorker(EquinoxBundle.java:387)
+	at org.eclipse.osgi.container.Module.doStart(Module.java:639)
+	at org.eclipse.osgi.container.Module.start(Module.java:498)
+	at org.eclipse.osgi.framework.util.SecureAction.start(SecureAction.java:528)
+	at org.eclipse.osgi.internal.hooks.EclipseLazyStarter.postFindLocalClass(EclipseLazyStarter.java:122)
+	at org.eclipse.osgi.internal.loader.classpath.ClasspathManager.findLocalClass(ClasspathManager.java:620)
+	at org.eclipse.osgi.internal.loader.ModuleClassLoader.findLocalClass(ModuleClassLoader.java:348)
+	at org.eclipse.osgi.internal.loader.BundleLoader.findLocalClass(BundleLoader.java:414)
+	at org.eclipse.osgi.internal.loader.sources.SingleSourcePackage.loadClass(SingleSourcePackage.java:41)
+	at org.eclipse.osgi.internal.loader.BundleLoader.findClass0(BundleLoader.java:516)
+	at org.eclipse.osgi.internal.loader.BundleLoader.findClass(BundleLoader.java:434)
+	at org.eclipse.osgi.internal.loader.ModuleClassLoader.loadClass(ModuleClassLoader.java:174)
+	at java.base/java.lang.ClassLoader.loadClass(ClassLoader.java:525)
+	at org.eclipse.ui.internal.ide.application.IDEApplication.start(IDEApplication.java:153)
+	at org.eclipse.equinox.internal.app.EclipseAppHandle.run(EclipseAppHandle.java:208)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.runApplication(EclipseAppLauncher.java:143)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.start(EclipseAppLauncher.java:109)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:439)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:271)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+	at org.eclipse.equinox.launcher.Main.invokeFramework(Main.java:668)
+	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:605)
+	at org.eclipse.equinox.launcher.Main.run(Main.java:1481)
+	at org.eclipse.equinox.launcher.Main.main(Main.java:1454)
+
+!ENTRY org.apache.felix.scr 4 0 2024-07-23 14:39:47.748
+!MESSAGE bundle org.apache.felix.scr:2.2.10 (91) Circular reference detected trying to get service {org.eclipse.m2e.core.project.IMavenProjectChangedListener}={service.id=274, service.bundleid=1043, service.scope=bundle, osgi.ds.satisfying.condition.target=(osgi.condition.id=true), component.name=org.eclipse.m2e.core.internal.project.WorkspaceStateWriter, component.id=38}
+ stack of references: ServiceReference: {org.eclipse.m2e.core.project.IMavenProjectChangedListener}={service.id=274, service.bundleid=1043, service.scope=bundle, osgi.ds.satisfying.condition.target=(osgi.condition.id=true), component.name=org.eclipse.m2e.core.internal.project.WorkspaceStateWriter, component.id=38}
+    Dependency: DependencyManager: Component [Component: org.eclipse.m2e.core.internal.project.registry.MavenProjectManager (41)] reference [MavenProjectChangedListener]
+ServiceReference: {org.eclipse.m2e.core.project.IMavenProjectRegistry}={service.id=267, service.bundleid=1043, service.scope=bundle, osgi.ds.satisfying.condition.target=(osgi.condition.id=true), component.name=org.eclipse.m2e.core.internal.project.registry.MavenProjectManager, component.id=41}
+    Dependency: DependencyManager: Component [Component: org.eclipse.m2e.core.embedder.MavenModelManager (26)] reference [projectManager]
+    Dependency: DependencyManager: Component [Component: org.eclipse.m2e.core.embedder.MavenModelManager (26)] reference [projectManager]
+ServiceReference: {org.eclipse.m2e.core.internal.project.registry.ProjectRegistryManager}={service.id=265, service.bundleid=1043, service.scope=bundle, osgi.ds.satisfying.condition.target=(osgi.condition.id=true), component.name=org.eclipse.m2e.core.internal.project.registry.ProjectRegistryManager, component.id=43}
+
+!STACK 0
+java.lang.Exception: stack trace
+	at org.apache.felix.scr.impl.ComponentRegistry.enterCreate(ComponentRegistry.java:493)
+	at org.apache.felix.scr.impl.BundleComponentActivator.enterCreate(BundleComponentActivator.java:722)
+	at org.apache.felix.scr.impl.manager.SingleComponentManager.getService(SingleComponentManager.java:901)
+	at org.eclipse.osgi.internal.serviceregistry.ServiceFactoryUse$1.run(ServiceFactoryUse.java:226)
+	at java.base/java.security.AccessController.doPrivileged(AccessController.java:319)
+	at org.eclipse.osgi.internal.serviceregistry.ServiceFactoryUse.factoryGetService(ServiceFactoryUse.java:223)
+	at org.eclipse.osgi.internal.serviceregistry.ServiceFactoryUse.getService(ServiceFactoryUse.java:118)
+	at org.eclipse.osgi.internal.serviceregistry.ServiceConsumer$2.getService(ServiceConsumer.java:48)
+	at org.eclipse.osgi.internal.serviceregistry.ServiceRegistrationImpl.getService(ServiceRegistrationImpl.java:580)
+	at org.eclipse.osgi.internal.serviceregistry.ServiceRegistry.getService(ServiceRegistry.java:548)
+	at org.eclipse.osgi.internal.framework.BundleContextImpl.getService(BundleContextImpl.java:672)
+	at org.apache.felix.scr.impl.manager.SingleRefPair.getServiceObject(SingleRefPair.java:88)
+	at org.apache.felix.scr.impl.inject.methods.BindMethod.getServiceObject(BindMethod.java:675)
+	at org.apache.felix.scr.impl.manager.DependencyManager.getServiceObject(DependencyManager.java:2625)
+	at org.apache.felix.scr.impl.manager.DependencyManager$MultipleDynamicCustomizer.prebind(DependencyManager.java:441)
+	at org.apache.felix.scr.impl.manager.DependencyManager.prebind(DependencyManager.java:1843)
+	at org.apache.felix.scr.impl.manager.AbstractComponentManager.collectDependencies(AbstractComponentManager.java:1060)
+	at org.apache.felix.scr.impl.manager.SingleComponentManager.getServiceInternal(SingleComponentManager.java:955)
+	at org.apache.felix.scr.impl.manager.SingleComponentManager.getService(SingleComponentManager.java:920)
+	at org.eclipse.osgi.internal.serviceregistry.ServiceFactoryUse$1.run(ServiceFactoryUse.java:226)
+	at java.base/java.security.AccessController.doPrivileged(AccessController.java:319)
+	at org.eclipse.osgi.internal.serviceregistry.ServiceFactoryUse.factoryGetService(ServiceFactoryUse.java:223)
+	at org.eclipse.osgi.internal.serviceregistry.ServiceFactoryUse.getService(ServiceFactoryUse.java:118)
+	at org.eclipse.osgi.internal.serviceregistry.ServiceConsumer$2.getService(ServiceConsumer.java:48)
+	at org.eclipse.osgi.internal.serviceregistry.ServiceRegistrationImpl.getService(ServiceRegistrationImpl.java:580)
+	at org.eclipse.osgi.internal.serviceregistry.ServiceRegistry.getService(ServiceRegistry.java:548)
+	at org.eclipse.osgi.internal.framework.BundleContextImpl.getService(BundleContextImpl.java:672)
+	at org.apache.felix.scr.impl.manager.SingleRefPair.getServiceObject(SingleRefPair.java:88)
+	at org.apache.felix.scr.impl.inject.field.FieldHandler$ReferenceMethodImpl.getServiceObject(FieldHandler.java:552)
+	at org.apache.felix.scr.impl.manager.DependencyManager.getServiceObject(DependencyManager.java:2625)
+	at org.apache.felix.scr.impl.manager.DependencyManager$SingleStaticCustomizer.prebind(DependencyManager.java:1414)
+	at org.apache.felix.scr.impl.manager.DependencyManager.prebind(DependencyManager.java:1843)
+	at org.apache.felix.scr.impl.manager.AbstractComponentManager.collectDependencies(AbstractComponentManager.java:1060)
+	at org.apache.felix.scr.impl.manager.SingleComponentManager.getServiceInternal(SingleComponentManager.java:955)
+	at org.apache.felix.scr.impl.manager.SingleComponentManager.getService(SingleComponentManager.java:920)
+	at org.eclipse.osgi.internal.serviceregistry.ServiceFactoryUse$1.run(ServiceFactoryUse.java:226)
+	at java.base/java.security.AccessController.doPrivileged(AccessController.java:319)
+	at org.eclipse.osgi.internal.serviceregistry.ServiceFactoryUse.factoryGetService(ServiceFactoryUse.java:223)
+	at org.eclipse.osgi.internal.serviceregistry.ServiceFactoryUse.getService(ServiceFactoryUse.java:118)
+	at org.eclipse.osgi.internal.serviceregistry.ServiceConsumer$2.getService(ServiceConsumer.java:48)
+	at org.eclipse.osgi.internal.serviceregistry.ServiceRegistrationImpl.getService(ServiceRegistrationImpl.java:580)
+	at org.eclipse.osgi.internal.serviceregistry.ServiceRegistry.getService(ServiceRegistry.java:548)
+	at org.eclipse.osgi.internal.framework.BundleContextImpl.getService(BundleContextImpl.java:672)
+	at org.apache.felix.scr.impl.manager.SingleRefPair.getServiceObject(SingleRefPair.java:88)
+	at org.apache.felix.scr.impl.inject.field.FieldHandler$ReferenceMethodImpl.getServiceObject(FieldHandler.java:552)
+	at org.apache.felix.scr.impl.manager.DependencyManager.getServiceObject(DependencyManager.java:2625)
+	at org.apache.felix.scr.impl.manager.DependencyManager$SingleStaticCustomizer.prebind(DependencyManager.java:1414)
+	at org.apache.felix.scr.impl.manager.DependencyManager.prebind(DependencyManager.java:1843)
+	at org.apache.felix.scr.impl.manager.AbstractComponentManager.collectDependencies(AbstractComponentManager.java:1060)
+	at org.apache.felix.scr.impl.manager.SingleComponentManager.getServiceInternal(SingleComponentManager.java:955)
+	at org.apache.felix.scr.impl.manager.AbstractComponentManager.activateInternal(AbstractComponentManager.java:776)
+	at org.apache.felix.scr.impl.manager.DependencyManager$SingleStaticCustomizer.addedService(DependencyManager.java:1287)
+	at org.apache.felix.scr.impl.manager.DependencyManager$SingleStaticCustomizer.addedService(DependencyManager.java:1238)
+	at org.apache.felix.scr.impl.manager.ServiceTracker$Tracked.customizerAdded(ServiceTracker.java:1232)
+	at org.apache.felix.scr.impl.manager.ServiceTracker$Tracked.customizerAdded(ServiceTracker.java:1152)
+	at org.apache.felix.scr.impl.manager.ServiceTracker$AbstractTracked.trackAdding(ServiceTracker.java:959)
+	at org.apache.felix.scr.impl.manager.ServiceTracker$AbstractTracked.track(ServiceTracker.java:895)
+	at org.apache.felix.scr.impl.manager.ServiceTracker$Tracked.serviceChanged(ServiceTracker.java:1184)
+	at org.apache.felix.scr.impl.BundleComponentActivator$ListenerInfo.serviceChanged(BundleComponentActivator.java:116)
+	at org.eclipse.osgi.internal.serviceregistry.FilteredServiceListener.serviceChanged(FilteredServiceListener.java:133)
+	at org.eclipse.osgi.internal.framework.BundleContextImpl.dispatchEvent(BundleContextImpl.java:995)
+	at org.eclipse.osgi.framework.eventmgr.EventManager.dispatchEvent(EventManager.java:230)
+	at org.eclipse.osgi.framework.eventmgr.ListenerQueue.dispatchEventSynchronous(ListenerQueue.java:151)
+	at org.eclipse.osgi.internal.serviceregistry.ServiceRegistry.publishServiceEventPrivileged(ServiceRegistry.java:956)
+	at org.eclipse.osgi.internal.serviceregistry.ServiceRegistry.publishServiceEvent(ServiceRegistry.java:890)
+	at org.eclipse.osgi.internal.serviceregistry.ServiceRegistrationImpl.register(ServiceRegistrationImpl.java:145)
+	at org.eclipse.osgi.internal.serviceregistry.ServiceRegistry.registerService(ServiceRegistry.java:274)
+	at org.eclipse.osgi.internal.framework.BundleContextImpl.registerService(BundleContextImpl.java:501)
+	at org.apache.felix.scr.impl.manager.AbstractComponentManager$3.register(AbstractComponentManager.java:929)
+	at org.apache.felix.scr.impl.manager.AbstractComponentManager$3.register(AbstractComponentManager.java:915)
+	at org.apache.felix.scr.impl.manager.RegistrationManager.changeRegistration(RegistrationManager.java:133)
+	at org.apache.felix.scr.impl.manager.AbstractComponentManager.registerService(AbstractComponentManager.java:984)
+	at org.apache.felix.scr.impl.manager.AbstractComponentManager.activateInternal(AbstractComponentManager.java:752)
+	at org.apache.felix.scr.impl.manager.DependencyManager$SingleStaticCustomizer.addedService(DependencyManager.java:1287)
+	at org.apache.felix.scr.impl.manager.DependencyManager$SingleStaticCustomizer.addedService(DependencyManager.java:1238)
+	at org.apache.felix.scr.impl.manager.ServiceTracker$Tracked.customizerAdded(ServiceTracker.java:1232)
+	at org.apache.felix.scr.impl.manager.ServiceTracker$Tracked.customizerAdded(ServiceTracker.java:1152)
+	at org.apache.felix.scr.impl.manager.ServiceTracker$AbstractTracked.trackAdding(ServiceTracker.java:959)
+	at org.apache.felix.scr.impl.manager.ServiceTracker$AbstractTracked.track(ServiceTracker.java:895)
+	at org.apache.felix.scr.impl.manager.ServiceTracker$Tracked.serviceChanged(ServiceTracker.java:1184)
+	at org.apache.felix.scr.impl.BundleComponentActivator$ListenerInfo.serviceChanged(BundleComponentActivator.java:116)
+	at org.eclipse.osgi.internal.serviceregistry.FilteredServiceListener.serviceChanged(FilteredServiceListener.java:133)
+	at org.eclipse.osgi.internal.framework.BundleContextImpl.dispatchEvent(BundleContextImpl.java:995)
+	at org.eclipse.osgi.framework.eventmgr.EventManager.dispatchEvent(EventManager.java:230)
+	at org.eclipse.osgi.framework.eventmgr.ListenerQueue.dispatchEventSynchronous(ListenerQueue.java:151)
+	at org.eclipse.osgi.internal.serviceregistry.ServiceRegistry.publishServiceEventPrivileged(ServiceRegistry.java:956)
+	at org.eclipse.osgi.internal.serviceregistry.ServiceRegistry.publishServiceEvent(ServiceRegistry.java:890)
+	at org.eclipse.osgi.internal.serviceregistry.ServiceRegistrationImpl.register(ServiceRegistrationImpl.java:145)
+	at org.eclipse.osgi.internal.serviceregistry.ServiceRegistry.registerService(ServiceRegistry.java:274)
+	at org.eclipse.osgi.internal.framework.BundleContextImpl.registerService(BundleContextImpl.java:501)
+	at org.eclipse.osgi.internal.framework.BundleContextImpl.registerService(BundleContextImpl.java:521)
+	at org.eclipse.osgi.internal.framework.BundleContextImpl.registerService(BundleContextImpl.java:1080)
+	at org.eclipse.core.resources.ResourcesPlugin$WorkspaceInitCustomizer.addingService(ResourcesPlugin.java:574)
+	at org.eclipse.core.resources.ResourcesPlugin$WorkspaceInitCustomizer.addingService(ResourcesPlugin.java:1)
+	at org.osgi.util.tracker.ServiceTracker$Tracked.customizerAdding(ServiceTracker.java:947)
+	at org.osgi.util.tracker.ServiceTracker$Tracked.customizerAdding(ServiceTracker.java:1)
+	at org.osgi.util.tracker.AbstractTracked.trackAdding(AbstractTracked.java:257)
+	at org.osgi.util.tracker.AbstractTracked.trackInitial(AbstractTracked.java:184)
+	at org.osgi.util.tracker.ServiceTracker.open(ServiceTracker.java:324)
+	at org.osgi.util.tracker.ServiceTracker.open(ServiceTracker.java:267)
+	at org.eclipse.core.resources.ResourcesPlugin.start(ResourcesPlugin.java:545)
+	at org.eclipse.osgi.internal.framework.BundleContextImpl$2.run(BundleContextImpl.java:833)
+	at org.eclipse.osgi.internal.framework.BundleContextImpl$2.run(BundleContextImpl.java:1)
+	at java.base/java.security.AccessController.doPrivileged(AccessController.java:571)
+	at org.eclipse.osgi.internal.framework.BundleContextImpl.startActivator(BundleContextImpl.java:825)
+	at org.eclipse.osgi.internal.framework.BundleContextImpl.start(BundleContextImpl.java:775)
+	at org.eclipse.osgi.internal.framework.EquinoxBundle.startWorker0(EquinoxBundle.java:1057)
+	at org.eclipse.osgi.internal.framework.EquinoxBundle$EquinoxModule.startWorker(EquinoxBundle.java:387)
+	at org.eclipse.osgi.container.Module.doStart(Module.java:639)
+	at org.eclipse.osgi.container.Module.start(Module.java:498)
+	at org.eclipse.osgi.framework.util.SecureAction.start(SecureAction.java:528)
+	at org.eclipse.osgi.internal.hooks.EclipseLazyStarter.postFindLocalClass(EclipseLazyStarter.java:122)
+	at org.eclipse.osgi.internal.loader.classpath.ClasspathManager.findLocalClass(ClasspathManager.java:620)
+	at org.eclipse.osgi.internal.loader.ModuleClassLoader.findLocalClass(ModuleClassLoader.java:348)
+	at org.eclipse.osgi.internal.loader.BundleLoader.findLocalClass(BundleLoader.java:414)
+	at org.eclipse.osgi.internal.loader.sources.SingleSourcePackage.loadClass(SingleSourcePackage.java:41)
+	at org.eclipse.osgi.internal.loader.BundleLoader.findClass0(BundleLoader.java:516)
+	at org.eclipse.osgi.internal.loader.BundleLoader.findClass(BundleLoader.java:434)
+	at org.eclipse.osgi.internal.loader.ModuleClassLoader.loadClass(ModuleClassLoader.java:174)
+	at java.base/java.lang.ClassLoader.loadClass(ClassLoader.java:525)
+	at org.eclipse.ui.internal.ide.application.IDEApplication.start(IDEApplication.java:153)
+	at org.eclipse.equinox.internal.app.EclipseAppHandle.run(EclipseAppHandle.java:208)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.runApplication(EclipseAppLauncher.java:143)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.start(EclipseAppLauncher.java:109)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:439)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:271)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+	at org.eclipse.equinox.launcher.Main.invokeFramework(Main.java:668)
+	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:605)
+	at org.eclipse.equinox.launcher.Main.run(Main.java:1481)
+	at org.eclipse.equinox.launcher.Main.main(Main.java:1454)
+
+!ENTRY ch.qos.logback.classic 1 0 2024-07-23 14:39:48.234
+!MESSAGE Logback config file: C:\Users\Nihir\eclipse-workspace\rahul_selenium\.metadata\.plugins\org.eclipse.m2e.logback\logback.2.6.1.20240411-1122.xml
+
+!ENTRY org.eclipse.ui 2 0 2024-07-23 14:39:48.842
+!MESSAGE Warnings while parsing the commands from the 'org.eclipse.ui.commands' and 'org.eclipse.ui.actionDefinitions' extension points.
+!SUBENTRY 1 org.eclipse.ui 2 0 2024-07-23 14:39:48.842
+!MESSAGE Commands should really have a category: plug-in='org.springframework.tooling.boot.ls', id='spring.initializr.addStarters', categoryId='org.eclipse.lsp4e.commandCategory'
+
+!ENTRY org.eclipse.ui 2 0 2024-07-23 14:39:49.201
+!MESSAGE Warnings while parsing the commands from the 'org.eclipse.ui.commands' and 'org.eclipse.ui.actionDefinitions' extension points.
+!SUBENTRY 1 org.eclipse.ui 2 0 2024-07-23 14:39:49.201
+!MESSAGE Commands should really have a category: plug-in='org.springframework.tooling.boot.ls', id='spring.initializr.addStarters', categoryId='org.eclipse.lsp4e.commandCategory'
+
+!ENTRY org.eclipse.egit.ui 2 0 2024-07-23 14:39:56.786
+!MESSAGE Warning: The environment variable HOME is not set. The following directory will be used to store the Git
+user global configuration and to define the default location to store repositories: 'C:\Users\Nihir'. If this is
+not correct please set the HOME environment variable and restart Eclipse. Otherwise Git for Windows and
+EGit might behave differently since they see different configuration options.
+This warning can be switched off on the Team > Git > Confirmations and Warnings preference page.
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2024-07-23 14:39:58.367
+!MESSAGE Classpath changed for project: gs-producing-web-service-complete
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2024-07-23 14:39:58.370
+!MESSAGE Boot project ADDED: gs-producing-web-service-complete
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2024-07-23 14:39:58.372
+!MESSAGE Starting Boot LS...
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2024-07-23 14:39:58.406
+!MESSAGE Boot project ADDED: gs-producing-web-service-initial
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2024-07-23 14:39:58.482
+!MESSAGE Started Boot LS process
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2024-07-23 14:39:58.483
+!MESSAGE Classpath changed for project: gs-producing-web-service-initial
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2024-07-23 14:39:58.484
+!MESSAGE Boot project ADDED: gs-rest-service-complete
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2024-07-23 14:39:58.485
+!MESSAGE Boot project ADDED: gs-rest-service-initial
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2024-07-23 14:39:58.486
+!MESSAGE Classpath changed for project: gs-rest-service-complete
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2024-07-23 14:39:58.487
+!MESSAGE Boot project ADDED: gs-spring-boot-complete
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2024-07-23 14:39:58.488
+!MESSAGE Boot project ADDED: gs-spring-boot-initial
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2024-07-23 14:39:58.489
+!MESSAGE Boot project ADDED: gs-validating-form-input-complete
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2024-07-23 14:39:58.489
+!MESSAGE Classpath changed for project: gs-rest-service-initial
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2024-07-23 14:39:58.493
+!MESSAGE Boot project ADDED: gs-validating-form-input-initial
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2024-07-23 14:39:58.494
+!MESSAGE Classpath changed for project: gs-spring-boot-complete
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2024-07-23 14:39:58.496
+!MESSAGE Classpath changed for project: gs-spring-boot-initial
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2024-07-23 14:39:58.497
+!MESSAGE Classpath changed for project: gs-validating-form-input-complete
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2024-07-23 14:39:58.498
+!MESSAGE Classpath changed for project: gs-validating-form-input-initial
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2024-07-23 14:39:58.549
+!MESSAGE Command list starting LS: org.springframework.tooling.boot.ls
+START:
+C:\Program Files\Java\jdk-22\bin\javaw.exe
+-cp
+C:\Users\Nihir\eclipse\jee-2024-03\eclipse\..\..\..\.p2\pool\plugins\org.springframework.tooling.boot.ls_1.55.1.202406141939\servers\spring-boot-language-server\BOOT-INF\classes;C:\Users\Nihir\eclipse\jee-2024-03\eclipse\..\..\..\.p2\pool\plugins\org.springframework.tooling.boot.ls_1.55.1.202406141939\servers\spring-boot-language-server\BOOT-INF\lib\*
+-Dsts.lsp.client=eclipse
+-Xmx1024m
+-XX:TieredStopAtLevel=1
+-Xlog:jni+resolve=off
+-Dspring.config.location=file:C:\Users\Nihir\eclipse\jee-2024-03\eclipse\..\..\..\.p2\pool\plugins\org.springframework.tooling.boot.ls_1.55.1.202406141939\servers\spring-boot-language-server\BOOT-INF\classes\application.properties
+-XX:ErrorFile=C:/Users/Nihir/eclipse-workspace/rahul_selenium/.metadata/.plugins/org.springframework.tooling.boot.ls/fatal-error-spring-boot_1721763598548
+org.springframework.ide.vscode.boot.app.BootLanguageServerBootApp
+--languageserver.hover-timeout=225
+END
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2024-07-23 14:39:58.559
+!MESSAGE DelegatingStreamConnectionProvider - Starting Boot LS
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2024-07-23 14:39:58.624
+!MESSAGE Started org.springframework.tooling.boot.ls LS process 42660
+
+!ENTRY org.robotframework.ide.eclipse.main.plugin 1 0 2024-07-23 14:40:00.790
+!MESSAGE RED plugin started, version: 0.9.5.202007240959
+
+!ENTRY org.testng.eclipse 4 4 2024-07-23 14:41:51.155
+!MESSAGE Error
+!STACK 0
+java.util.concurrent.CancellationException
+	at org.eclipse.jface.internal.text.codemining.CancellationExceptionMonitor.isCanceled(CancellationExceptionMonitor.java:33)
+	at org.testng.eclipse.ui.codemining.TestCodeMiningProvider.processElements(TestCodeMiningProvider.java:80)
+	at org.testng.eclipse.ui.codemining.TestCodeMiningProvider.processElements(TestCodeMiningProvider.java:89)
+	at org.testng.eclipse.ui.codemining.TestCodeMiningProvider.mineForTests(TestCodeMiningProvider.java:67)
+	at org.testng.eclipse.ui.codemining.TestCodeMiningProvider.lambda$0(TestCodeMiningProvider.java:40)
+	at java.base/java.util.concurrent.CompletableFuture$AsyncSupply.run(CompletableFuture.java:1768)
+	at java.base/java.util.concurrent.CompletableFuture$AsyncSupply.exec(CompletableFuture.java:1760)
+	at java.base/java.util.concurrent.ForkJoinTask.doExec(ForkJoinTask.java:507)
+	at java.base/java.util.concurrent.ForkJoinPool$WorkQueue.topLevelExec(ForkJoinPool.java:1491)
+	at java.base/java.util.concurrent.ForkJoinPool.scan(ForkJoinPool.java:2073)
+	at java.base/java.util.concurrent.ForkJoinPool.runWorker(ForkJoinPool.java:2035)
+	at java.base/java.util.concurrent.ForkJoinWorkerThread.run(ForkJoinWorkerThread.java:187)
